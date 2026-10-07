@@ -1,4 +1,5 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "SP1001-02XTG") (type "KiCad") (uri "${KIPRJMOD}/symbols/SP1001-02XTG.kicad_sym") (options "") (descr ""))
+	(lib (name "ESD122DMYR") (type "KiCad") (uri "${KIPRJMOD}/symbols/ESD122DMYR.kicad_sym") (options "") (descr ""))
 )
