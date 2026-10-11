@@ -417,13 +417,17 @@
         "uuid": "61005c45-a979-4676-8d6b-817cd7f4616a"
       }
     ],
-    "used_designators": "U1,R1-39,J1-4,#PWR1-18,D1-13,C1-19,SW1-2,Q1-2,K1-2",
+    "used_designators": "U1,R1-39,J1-4,#PWR1-18,D1-14,C1-20,SW1-2,Q1-2,K1-2",
     "variants": []
   },
   "sheets": [
     [
       "61005c45-a979-4676-8d6b-817cd7f4616a",
       "vireo-lite"
+    ],
+    [
+      "be70e869-b3e3-48dc-836a-8bb39c7dd923",
+      "MCU Breakout"
     ],
     [
       "1beed159-1587-4a68-8213-06287a1dd2c9",

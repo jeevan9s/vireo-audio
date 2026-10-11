@@ -21,6 +21,16 @@
 		)
 		(uuid "35d0a70f-6726-487c-8476-417a5eb7d92d")
 	)
+	(wire
+		(pts
+			(xy 105.41 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777ccd0e-19ec-437e-836b-2f7f869ecaaa")
+	)
 	(global_label "HIZ_FET_GATE"
 		(shape input)
 		(at 105.41 86.36 180)
@@ -34,6 +44,30 @@
 		(uuid "7d7ee08b-6f95-4acf-97b3-2d89d2a58a83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.6644 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PHTM_INJEC_GATE"
+		(shape input)
+		(at 105.41 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96f217c2-9b19-45c7-9be1-c9c29b504bef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.673 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -92,7 +126,7 @@
 		)
 	)
 	(sheet
-		(at 199.39 50.8)
+		(at 209.55 83.82)
 		(size 41.91 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -108,7 +142,7 @@
 		)
 		(uuid "33b8941b-d741-4787-8ae4-4d148ad50e4b")
 		(property "Sheetname" "Power"
-			(at 199.39 50.0884 0)
+			(at 209.55 83.1084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -119,7 +153,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 199.39 75.5146 0)
+			(at 209.55 108.5346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -234,6 +268,16 @@
 		(pin "HIZ_FET_GATE" input
 			(at 106.68 86.36 180)
 			(uuid "5ebcc69d-dcae-4f6a-8132-42faa0ad8c56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHTM_INJEC_GATE" input
+			(at 106.68 88.9 180)
+			(uuid "99087e0d-0bcc-4467-beb4-4b1ff27baefe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,6 +427,52 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 50.8)
+		(size 41.91 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "be70e869-b3e3-48dc-836a-8bb39c7dd923")
+		(property "Sheetname" "MCU Breakout"
+			(at 193.04 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 193.04 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "vireo-lite"
+				(path "/61005c45-a979-4676-8d6b-817cd7f4616a"
+					(page "2")
 				)
 			)
 		)

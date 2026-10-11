@@ -31,6 +31,8 @@ fp-info-cache
 
 **/*-backups/*.zip
 
-./history
+./hardware/kicad/.history/
+./.history/
+.history/
 
 *.kicad_prl
