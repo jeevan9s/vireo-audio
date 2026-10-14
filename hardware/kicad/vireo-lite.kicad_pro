@@ -417,7 +417,7 @@
         "uuid": "61005c45-a979-4676-8d6b-817cd7f4616a"
       }
     ],
-    "used_designators": "U1,R1-39,J1-4,#PWR1-18,D1-14,C1-20,SW1-2,Q1-2,K1-2",
+    "used_designators": "U1-2,R1-47,J1-5,#PWR1-27,D1-28,C1-37,SW1-4,Q1-2,K1-2,FB1,Y1",
     "variants": []
   },
   "sheets": [
@@ -439,7 +439,7 @@
     ],
     [
       "cb010bc6-ff43-4892-9270-e28ab515ee44",
-      "USB Interface"
+      "Flash and Debug Interface"
     ],
     [
       "33b8941b-d741-4787-8ae4-4d148ad50e4b",

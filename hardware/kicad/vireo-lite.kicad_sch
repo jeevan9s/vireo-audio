@@ -31,6 +31,54 @@
 		)
 		(uuid "777ccd0e-19ec-437e-836b-2f7f869ecaaa")
 	)
+	(global_label "USB_P"
+		(shape input)
+		(at 199.39 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21d95aa6-f542-496c-8597-84da5e947648")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.3572 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_N"
+		(shape input)
+		(at 40.64 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7739bcf1-7b10-4a00-ad27-b8ad11e207bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.5467 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "HIZ_FET_GATE"
 		(shape input)
 		(at 105.41 86.36 180)
@@ -55,6 +103,30 @@
 			)
 		)
 	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 40.64 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9127bdb5-4433-4b15-a174-f3f5cb58a2b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.7886 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PHTM_INJEC_GATE"
 		(shape input)
 		(at 105.41 88.9 180)
@@ -68,6 +140,126 @@
 		(uuid "96f217c2-9b19-45c7-9be1-c9c29b504bef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.673 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_N"
+		(shape input)
+		(at 199.39 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4b714e4-1082-433a-94c2-ec01f113a914")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.2967 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_P"
+		(shape input)
+		(at 40.64 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6095da8-2451-4a1c-ad62-6652603b4d77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.6072 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 199.39 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d947d6ea-4487-48d0-b6e8-32bad550607b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5386 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SWDCLK"
+		(shape input)
+		(at 40.64 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e47ba377-a658-4f88-b204-087fb2f9afbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.1558 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SWDCLK"
+		(shape input)
+		(at 199.39 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f075756b-ec10-41ac-925d-58046bf1f9d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.9058 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -432,7 +624,7 @@
 		)
 	)
 	(sheet
-		(at 193.04 50.8)
+		(at 199.39 50.8)
 		(size 41.91 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -448,7 +640,7 @@
 		)
 		(uuid "be70e869-b3e3-48dc-836a-8bb39c7dd923")
 		(property "Sheetname" "MCU Breakout"
-			(at 193.04 50.0884 0)
+			(at 199.39 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -459,7 +651,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 193.04 75.5146 0)
+			(at 199.39 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -467,6 +659,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SWDCLK" input
+			(at 199.39 53.34 180)
+			(uuid "95ab7f79-1b3b-4f6a-a06f-d6279b753c44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 199.39 55.88 180)
+			(uuid "e2543406-f7e6-4966-b274-e2a62bb3db92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_N" input
+			(at 199.39 59.69 180)
+			(uuid "545368ae-8010-418c-8a34-ce00ff32558d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_P" input
+			(at 199.39 62.23 180)
+			(uuid "20202349-6c57-441a-9d2c-f2bbc54e031e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -493,7 +725,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "cb010bc6-ff43-4892-9270-e28ab515ee44")
-		(property "Sheetname" "USB Interface"
+		(property "Sheetname" "Flash and Debug Interface"
 			(at 40.64 84.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -504,7 +736,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb.kicad_sch"
+		(property "Sheetfile" "flash-debug.kicad_sch"
 			(at 40.64 109.8046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -535,9 +767,19 @@
 				(justify left)
 			)
 		)
-		(pin "VBUS_RAW" input
-			(at 40.64 92.71 180)
-			(uuid "41c8cddf-2ae4-4682-9b0c-f4ee90415e28")
+		(pin "SWDCLK" input
+			(at 40.64 95.25 180)
+			(uuid "6a200338-5621-475a-a0c5-0ef560a3a76d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 40.64 97.79 180)
+			(uuid "6fc873ba-c283-4bca-9d3b-e05683db1a6e")
 			(effects
 				(font
 					(size 1.27 1.27)
