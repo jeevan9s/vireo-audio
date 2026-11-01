@@ -3,4 +3,5 @@
 	(lib (name "SP1001-02XTG") (type "KiCad") (uri "${KIPRJMOD}/symbols/SP1001-02XTG.kicad_sym") (options "") (descr ""))
 	(lib (name "ESD122DMYR") (type "KiCad") (uri "${KIPRJMOD}/symbols/ESD122DMYR.kicad_sym") (options "") (descr ""))
 	(lib (name "MQPPQ3425") (type "KiCad") (uri "${KIPRJMOD}/symbols/MQPPQ3425.kicad_sym") (options "") (descr ""))
+	(lib (name "INA2227") (type "KiCad") (uri "${KIPRJMOD}/symbols/INA2227.kicad_sym") (options "") (descr ""))
 )

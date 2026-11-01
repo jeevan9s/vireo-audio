@@ -10,166 +10,66 @@
 		(company "Jeevan Sanchez")
 		(comment 1 "lightweight audio interface")
 	)
-	(lib_symbols
-		(symbol "power:+48V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+48V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+48V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+48V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+48V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
+	(lib_symbols)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 106.68 86.36)
+			(xy 106.68 96.52) (xy 107.95 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35d0a70f-6726-487c-8476-417a5eb7d92d")
+		(uuid "2aa6e865-d0cf-4c24-9dc6-8b03b6059d41")
 	)
 	(wire
 		(pts
-			(xy 105.41 88.9) (xy 106.68 88.9)
+			(xy 106.68 93.98) (xy 107.95 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "777ccd0e-19ec-437e-836b-2f7f869ecaaa")
+		(uuid "5329472f-1317-4c15-88df-327f57e0a722")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5430740a-5cac-42f9-9db6-72d888688772")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 107.95 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd96e46-8a95-4cb3-ad42-3f5987d658dc")
+	)
+	(wire
+		(pts
+			(xy 106.68 91.44) (xy 107.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb988500-2b04-46eb-b03d-439bb5a69e0f")
+	)
+	(wire
+		(pts
+			(xy 106.68 99.06) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef37fb74-25f7-44ae-ae28-96ac0a1935f8")
 	)
 	(global_label "USB_P"
 		(shape input)
@@ -195,9 +95,9 @@
 			)
 		)
 	)
-	(global_label "USB_N"
+	(global_label "48V_INJEC2"
 		(shape input)
-		(at 40.64 87.63 180)
+		(at 106.68 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -205,9 +105,9 @@
 			)
 			(justify right)
 		)
-		(uuid "7739bcf1-7b10-4a00-ad27-b8ad11e207bf")
+		(uuid "2c917be7-d7b2-44a1-813a-aa805644c501")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.5467 87.63 0)
+			(at 92.6882 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -219,9 +119,81 @@
 			)
 		)
 	)
-	(global_label "HIZ_FET_GATE"
+	(global_label "48V_INJEC4"
 		(shape input)
-		(at 105.41 86.36 180)
+		(at 106.68 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39c4f989-ee45-42aa-b5df-45710499a2bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.6882 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "48V_INJEC1"
+		(shape input)
+		(at 106.68 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72e64bdf-2fbb-4f3c-8649-5f134aff3307")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.6882 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_N"
+		(shape input)
+		(at 40.64 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7739bcf1-7b10-4a00-ad27-b8ad11e207bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.5467 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "HIZ_FET_GATE1"
+		(shape input)
+		(at 106.68 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -231,7 +203,55 @@
 		)
 		(uuid "7d7ee08b-6f95-4acf-97b3-2d89d2a58a83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.6644 86.36 0)
+			(at 89.7249 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "HIZ_FET_GATE1"
+		(shape input)
+		(at 106.68 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e7b5052-351b-46a7-8982-c09e1ee00c93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.7249 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "HIZ_FET_GATE2"
+		(shape input)
+		(at 41.91 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a51b71a-86bb-462c-8cf3-80242c9f96f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.9549 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -245,7 +265,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 40.64 97.79 180)
+		(at 40.64 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -255,7 +275,7 @@
 		)
 		(uuid "9127bdb5-4433-4b15-a174-f3f5cb58a2b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.7886 97.79 0)
+			(at 31.7886 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -267,9 +287,9 @@
 			)
 		)
 	)
-	(global_label "PHTM_INJEC_GATE"
+	(global_label "HIZ_FET_GATE1"
 		(shape input)
-		(at 105.41 88.9 180)
+		(at 41.91 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -277,9 +297,9 @@
 			)
 			(justify right)
 		)
-		(uuid "96f217c2-9b19-45c7-9be1-c9c29b504bef")
+		(uuid "a0ba4810-7154-4e2a-9a90-bf658dc2ba83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.673 88.9 0)
+			(at 24.9549 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -317,7 +337,7 @@
 	)
 	(global_label "USB_P"
 		(shape input)
-		(at 40.64 90.17 180)
+		(at 40.64 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -327,7 +347,7 @@
 		)
 		(uuid "d6095da8-2451-4a1c-ad62-6652603b4d77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.6072 90.17 0)
+			(at 31.6072 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -365,7 +385,7 @@
 	)
 	(global_label "SWDCLK"
 		(shape input)
-		(at 40.64 95.25 180)
+		(at 40.64 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -375,7 +395,7 @@
 		)
 		(uuid "e47ba377-a658-4f88-b204-087fb2f9afbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.1558 95.25 0)
+			(at 30.1558 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -411,20 +431,19 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+48V")
-		(at 41.91 54.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+	(global_label "48V_INJEC3"
+		(shape input)
+		(at 106.68 101.6 180)
 		(fields_autoplaced yes)
-		(uuid "01d42e3b-51eb-411a-83cc-177c134dd15a")
-		(property "Reference" "#PWR034"
-			(at 45.72 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1b0c05d-ed26-44dd-95b7-7344a83df41f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.6882 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -432,61 +451,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "+48V"
-			(at 38.1 54.6099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 41.91 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83f604fa-f6ba-44df-92a3-a89c52c3cd36")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a"
-					(reference "#PWR034")
-					(unit 1)
-				)
+				(justify right)
 			)
 		)
 	)
@@ -537,7 +502,7 @@
 		)
 	)
 	(sheet
-		(at 209.55 83.82)
+		(at 209.55 87.63)
 		(size 41.91 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -553,7 +518,7 @@
 		)
 		(uuid "33b8941b-d741-4787-8ae4-4d148ad50e4b")
 		(property "Sheetname" "Power"
-			(at 209.55 83.1084 0)
+			(at 209.55 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -564,7 +529,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 209.55 108.5346 0)
+			(at 209.55 112.3446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -584,12 +549,11 @@
 	)
 	(sheet
 		(at 41.91 50.8)
-		(size 40.64 24.13)
+		(size 40.64 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -598,7 +562,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "3e962bde-1577-4741-a879-5d326008731b")
-		(property "Sheetname" "Inputs"
+		(property "Sheetname" "Audio AFEs"
 			(at 41.91 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -609,8 +573,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Inputs.kicad_sch"
-			(at 41.91 75.5146 0)
+		(property "Sheetfile" "audioAFEs.kicad_sch"
+			(at 41.656 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -620,9 +584,59 @@
 				(justify left top)
 			)
 		)
-		(pin "PHANTOM_48V" input
-			(at 41.91 54.61 180)
-			(uuid "2e946979-131e-46ba-b244-6b5ca99f6297")
+		(pin "HIZ_FET_GATE1" input
+			(at 41.91 57.15 180)
+			(uuid "67db1488-85b8-456c-94b5-f3701faee73d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HIZ_FET_GATE2" input
+			(at 41.91 59.69 180)
+			(uuid "07bf1c63-b118-4105-8a0d-4ee9919379ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "48V_DRAIN1" input
+			(at 41.91 62.23 180)
+			(uuid "9a360dd9-96d5-43a7-b4bc-1627a8b3abfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "48V_DRAIN2" input
+			(at 41.91 64.77 180)
+			(uuid "d9863e26-f9da-4dde-bbf3-05db90c4bbdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "48V_DRAIN3" input
+			(at 41.91 67.31 180)
+			(uuid "ff4c54e9-1fae-4845-8ac4-ddc4f9938c4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "48V_DRAIN4" input
+			(at 41.91 69.85 180)
+			(uuid "995274fc-2de3-473b-a8ee-2344a923c793")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -639,7 +653,7 @@
 		)
 	)
 	(sheet
-		(at 106.68 83.82)
+		(at 107.95 88.265)
 		(size 41.91 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -655,7 +669,7 @@
 		)
 		(uuid "5a7358eb-51b5-4efa-b8c5-abd9751435fc")
 		(property "Sheetname" "User Interface"
-			(at 106.68 83.1084 0)
+			(at 107.95 87.5534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -666,7 +680,7 @@
 			)
 		)
 		(property "Sheetfile" "UserInterface.kicad_sch"
-			(at 106.68 108.5346 0)
+			(at 107.95 112.9796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -676,9 +690,9 @@
 				(justify left top)
 			)
 		)
-		(pin "HIZ_FET_GATE" input
-			(at 106.68 86.36 180)
-			(uuid "5ebcc69d-dcae-4f6a-8132-42faa0ad8c56")
+		(pin "HIZ_FET_GATE1" input
+			(at 107.95 91.44 180)
+			(uuid "addd65c4-ce8c-4447-8fec-edf557329ed2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,9 +700,49 @@
 				(justify left)
 			)
 		)
-		(pin "PHTM_INJEC_GATE" input
-			(at 106.68 88.9 180)
-			(uuid "99087e0d-0bcc-4467-beb4-4b1ff27baefe")
+		(pin "HIZ_FET_GATE2" input
+			(at 107.95 93.98 180)
+			(uuid "cbd5a671-31d9-40cb-a8b9-10fb1492d196")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHTM_INJEC1" input
+			(at 107.95 96.52 180)
+			(uuid "fb9ef05b-a365-4fd3-9c49-68a746d5c9a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHTM_INJEC2" input
+			(at 107.95 99.06 180)
+			(uuid "ec3bfa87-5e77-4dcc-8553-b427ba2c758c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHTM_INJEC3" input
+			(at 107.95 101.6 180)
+			(uuid "862a12e3-422e-4296-9b28-4237d6e07e1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHTM_INJEC4" input
+			(at 107.95 104.14 180)
+			(uuid "ba4bf190-6942-4b71-bd36-7f6bb2a9fa2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +805,7 @@
 		)
 	)
 	(sheet
-		(at 160.02 83.82)
+		(at 160.02 87.63)
 		(size 41.91 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -767,7 +821,7 @@
 		)
 		(uuid "7b3d4dd1-f546-4018-b8d2-c88c8f56f1d6")
 		(property "Sheetname" "Metering"
-			(at 160.02 83.1084 0)
+			(at 160.02 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -778,7 +832,7 @@
 			)
 		)
 		(property "Sheetfile" "Metering.kicad_sch"
-			(at 160.02 108.5346 0)
+			(at 160.02 112.3446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -929,7 +983,7 @@
 		)
 	)
 	(sheet
-		(at 40.64 85.09)
+		(at 40.64 88.9)
 		(size 41.91 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -945,7 +999,7 @@
 		)
 		(uuid "cb010bc6-ff43-4892-9270-e28ab515ee44")
 		(property "Sheetname" "Flash and Debug Interface"
-			(at 40.64 84.3784 0)
+			(at 40.64 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -956,7 +1010,7 @@
 			)
 		)
 		(property "Sheetfile" "flash-debug.kicad_sch"
-			(at 40.64 109.8046 0)
+			(at 40.64 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -967,7 +1021,7 @@
 			)
 		)
 		(pin "USB_N" input
-			(at 40.64 87.63 180)
+			(at 40.64 91.44 180)
 			(uuid "5d8bcdab-977c-4407-8905-d54d5a5cd590")
 			(effects
 				(font
@@ -977,7 +1031,7 @@
 			)
 		)
 		(pin "USB_P" input
-			(at 40.64 90.17 180)
+			(at 40.64 93.98 180)
 			(uuid "b156ea2e-9b45-42aa-823a-59953a43ffcf")
 			(effects
 				(font
@@ -987,7 +1041,7 @@
 			)
 		)
 		(pin "SWDCLK" input
-			(at 40.64 95.25 180)
+			(at 40.64 99.06 180)
 			(uuid "6a200338-5621-475a-a0c5-0ef560a3a76d")
 			(effects
 				(font
@@ -997,7 +1051,7 @@
 			)
 		)
 		(pin "SWDIO" input
-			(at 40.64 97.79 180)
+			(at 40.64 101.6 180)
 			(uuid "6fc873ba-c283-4bca-9d3b-e05683db1a6e")
 			(effects
 				(font
