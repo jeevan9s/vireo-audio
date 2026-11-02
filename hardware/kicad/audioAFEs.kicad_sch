@@ -2214,6 +2214,18 @@
 		)
 		(uuid "7bc23ef3-bbad-4b5e-86a2-eca70e4e80fa")
 	)
+	(text "1% tolerance\n"
+		(exclude_from_sim no)
+		(at 99.568 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8df09fa1-4cb3-4967-8779-091867c87252")
+	)
 	(text "*cleaned 48V"
 		(exclude_from_sim no)
 		(at 67.31 154.432 0)
