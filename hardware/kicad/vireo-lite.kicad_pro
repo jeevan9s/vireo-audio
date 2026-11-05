@@ -417,7 +417,7 @@
         "uuid": "61005c45-a979-4676-8d6b-817cd7f4616a"
       }
     ],
-    "used_designators": "U1-6,J1-9,R1-108,D1-48,#PWR1-71,C1-77,SW1-8,Q1-10,K1-4,FB1-3,Y1,F1-2,H1-4,L1-2,TP1-14",
+    "used_designators": "U1-6,R1-108,J1-9,#PWR1-71,D1-48,C1-77,SW1-8,Q1-10,K1-4,FB1-3,Y1,F1-2,H1-4,L1-2,TP1-14",
     "variants": []
   },
   "sheets": [
@@ -431,7 +431,7 @@
     ],
     [
       "1beed159-1587-4a68-8213-06287a1dd2c9",
-      "Gain Stage"
+      "AFE - Gain Stages"
     ],
     [
       "a71ea095-8d15-401d-9170-37db03c0c1bb",
@@ -447,7 +447,7 @@
     ],
     [
       "3e962bde-1577-4741-a879-5d326008731b",
-      "Audio AFEs"
+      "AFE - Signal Conditioning"
     ],
     [
       "7ab8f9c4-8543-4be9-b43d-e7f63ee74f43",
