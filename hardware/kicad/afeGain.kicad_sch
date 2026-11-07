@@ -5,4 +5,148 @@
 	(uuid "73a73654-25f8-48e2-abfa-a44c0eba5fc6")
 	(paper "A4")
 	(lib_symbols)
+	(text "XLR/Mic levels are low (-60 dBu to -30dBu) and have low impedances(~150 to 600 ohms)\ntherefore, their gain stages require the highest amount of preamp. (+30dB to +60dB of gain)\nnoise within the preamp circuit will also be amplified, low self-noise is critical\n\nTS (Instrument) levels are moderate, (-30dbU to -10dbU) and have high impedance (Hi-Z, ~1Mohm)\ntherefore, their gain stages require moderate preamp. (+10dB to +30dB of gain)\ntransients are a concern, as well as EMI/RFI pickup over longer cable distances\n\nTS (Line) levels are high, (-10dbV / ~-7.78dBu), and have medium impedances (10k to 40k). \ntherefore, their gain stages require little to no preamp."
+		(exclude_from_sim no)
+		(at 24.892 41.91 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "953d3e6a-ce9f-4f47-8bef-17c83389af27")
+	)
+	(hierarchical_label "AFE1_INN"
+		(shape input)
+		(at 85.09 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35692a72-aef8-4fbd-a96b-64c6e853c0db")
+	)
+	(hierarchical_label "AFE1_IN_TS"
+		(shape input)
+		(at 128.27 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38d268b4-e336-4c28-8653-b474fe52af38")
+	)
+	(hierarchical_label "AFE2_INN"
+		(shape input)
+		(at 91.44 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72166e5c-ce21-4674-8a91-d34facdefcc8")
+	)
+	(hierarchical_label "AFE1_INP"
+		(shape input)
+		(at 82.55 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "913897fd-3a43-4f21-b010-03645df247a5")
+	)
+	(hierarchical_label "AFE3_IN_TS"
+		(shape input)
+		(at 153.67 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b364b0ed-62ad-434f-9e93-fd57447ba943")
+	)
+	(hierarchical_label "AFE4_IN_TS"
+		(shape input)
+		(at 166.37 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b483191f-c428-4468-bd64-f035372cf2f8")
+	)
+	(hierarchical_label "AFE4_INP"
+		(shape input)
+		(at 101.6 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcc29302-5403-443c-9752-45d68ec2c9f7")
+	)
+	(hierarchical_label "AFE3_INP"
+		(shape input)
+		(at 95.25 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf4d5690-998b-4c37-b7c4-bb0d2b0a4feb")
+	)
+	(hierarchical_label "AFE2_INP"
+		(shape input)
+		(at 88.9 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3645fab-b015-456e-b7ad-df2782d688af")
+	)
+	(hierarchical_label "AFE2_IN_TS"
+		(shape input)
+		(at 140.97 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df6d7811-8850-4e2f-ace4-b3fd4c3bf5be")
+	)
+	(hierarchical_label "AFE4_INN"
+		(shape input)
+		(at 104.14 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3f7c488-ec3e-440b-b055-a80a7d35af07")
+	)
+	(hierarchical_label "AFE3_INN"
+		(shape input)
+		(at 97.79 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5cc0926-8be6-47b4-afe4-fd558601ecbd")
+	)
 )
