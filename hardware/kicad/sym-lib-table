@@ -4,4 +4,5 @@
 	(lib (name "ESD122DMYR") (type "KiCad") (uri "${KIPRJMOD}/symbols/ESD122DMYR.kicad_sym") (options "") (descr ""))
 	(lib (name "MQPPQ3425") (type "KiCad") (uri "${KIPRJMOD}/symbols/MQPPQ3425.kicad_sym") (options "") (descr ""))
 	(lib (name "INA2227") (type "KiCad") (uri "${KIPRJMOD}/symbols/INA2227.kicad_sym") (options "") (descr ""))
+	(lib (name "2N7002DW") (type "KiCad") (uri "${KIPRJMOD}/symbols/2N7002DW.kicad_sym") (options "") (descr ""))
 )

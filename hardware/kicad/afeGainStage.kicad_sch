@@ -1,0 +1,129 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "73a73654-25f8-48e2-abfa-a44c0eba5fc6")
+	(paper "A4")
+	(title_block
+		(title "AFE Gain Stage")
+		(company "Jeevan Sanchez")
+		(comment 1 "Vireo")
+	)
+	(lib_symbols)
+	(text "XLR/Mic levels are low (-60 dBu to -30dBu) and have low impedances(~150 to 600 ohms)\ntherefore, their gain stages require the highest amount of preamp. (+30dB to +60dB of gain)\nnoise within the preamp circuit will also be amplified, low self-noise is critical\n\nTS (Instrument) levels are moderate, (-30dbU to -10dbU) and have high impedance (Hi-Z, ~1Mohm)\ntherefore, their gain stages require moderate preamp. (+10dB to +30dB of gain)\ntransients are a concern, as well as EMI/RFI pickup over longer cable distances\n\nTS (Line) levels are high, (-10dbV / ~-7.78dBu), and have medium impedances (10k to 40k). \ntherefore, their gain stages require little to no preamp."
+		(exclude_from_sim no)
+		(at 24.892 41.91 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "953d3e6a-ce9f-4f47-8bef-17c83389af27")
+	)
+	(hierarchical_label "GAIN_IN-_3"
+		(shape input)
+		(at 93.98 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "448eafc8-f6b1-4b2c-be08-fa0a5bcfeeb0")
+	)
+	(hierarchical_label "GAIN_IN-_1"
+		(shape input)
+		(at 58.42 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "62f9e8bc-1e52-4e02-a355-b54612038c60")
+	)
+	(hierarchical_label "GAIN_IN+_0"
+		(shape input)
+		(at 26.67 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "64104cd7-5226-4c69-91fa-f176f358065d")
+	)
+	(hierarchical_label "GAIN_IN+_3"
+		(shape input)
+		(at 83.82 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "a6c5371c-3a52-45aa-a371-f766fbee8059")
+	)
+	(hierarchical_label "GAIN_IN+_2"
+		(shape input)
+		(at 67.31 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "a7f3a40f-0ddc-46cb-a9c3-1b82accb5623")
+	)
+	(hierarchical_label "GAIN_IN-_0"
+		(shape input)
+		(at 36.83 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "bcc0438d-cc93-4c23-b7b5-1ae96efd11be")
+	)
+	(hierarchical_label "GAIN_IN+_1"
+		(shape input)
+		(at 48.26 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "dce07b66-7e47-4d94-9474-ba6c1677e71d")
+	)
+	(hierarchical_label "GAIN_IN-_2"
+		(shape input)
+		(at 77.47 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "ddf60b57-b5f9-441d-824e-0813e389bd5d")
+	)
+)

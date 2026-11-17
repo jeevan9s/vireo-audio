@@ -417,7 +417,7 @@
         "uuid": "61005c45-a979-4676-8d6b-817cd7f4616a"
       }
     ],
-    "used_designators": "U1-6,R1-110,J1-9,#PWR1-115,D1-52,C1-100,SW1-8,Q1-10,K1-4,FB1-3,Y1,F1-2,H1-4,L1-2,TP1-14",
+    "used_designators": "U1-14,J1-9,R1-148,D1-66,#PWR1-178,C1-116,SW1-8,Q1-16,K1-8,FB1-3,Y1,F1-2,H1-4,L1-2,TP1-14",
     "variants": []
   },
   "sheets": [
@@ -431,7 +431,7 @@
     ],
     [
       "1beed159-1587-4a68-8213-06287a1dd2c9",
-      "AFE - Gain Stages"
+      "AFE - Input Selection & Sensing"
     ],
     [
       "a71ea095-8d15-401d-9170-37db03c0c1bb",
@@ -454,16 +454,12 @@
       "Outputs"
     ],
     [
-      "5a7358eb-51b5-4efa-b8c5-abd9751435fc",
-      "User Interface"
-    ],
-    [
-      "fa44b64b-f94c-4131-b7cb-b930cc43f919",
-      "TestDebug"
-    ],
-    [
       "7b3d4dd1-f546-4018-b8d2-c88c8f56f1d6",
       "Metering"
+    ],
+    [
+      "468b2893-98ad-49e7-ac74-e1914a5a629b",
+      "AFE - GainStage"
     ]
   ],
   "text_variables": {},
