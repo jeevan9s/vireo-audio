@@ -1,6 +1,6 @@
 # vireo
-> Engineering **vireo lite**, a lightweight prototype for the system. 
+> Engineering **vire**, a lightweight aduio interface
 
-Audio interface designed for low-latency instrument tracking.
+Audio interface designed for low-latency instrument and mic tracking.
 
 - documentation is a WIP, content will fill up as development grows.
