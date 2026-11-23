@@ -22,22 +22,9 @@
 		)
 		(uuid "953d3e6a-ce9f-4f47-8bef-17c83389af27")
 	)
-	(hierarchical_label "GAIN_IN-_3"
-		(shape input)
-		(at 93.98 60.96 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "448eafc8-f6b1-4b2c-be08-fa0a5bcfeeb0")
-	)
 	(hierarchical_label "GAIN_IN-_1"
 		(shape input)
-		(at 58.42 60.96 270)
+		(at 68.58 60.96 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,7 +37,7 @@
 	)
 	(hierarchical_label "GAIN_IN+_0"
 		(shape input)
-		(at 26.67 60.96 270)
+		(at 36.83 60.96 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,35 +48,9 @@
 		)
 		(uuid "64104cd7-5226-4c69-91fa-f176f358065d")
 	)
-	(hierarchical_label "GAIN_IN+_3"
-		(shape input)
-		(at 83.82 60.96 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "a6c5371c-3a52-45aa-a371-f766fbee8059")
-	)
-	(hierarchical_label "GAIN_IN+_2"
-		(shape input)
-		(at 67.31 60.96 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "a7f3a40f-0ddc-46cb-a9c3-1b82accb5623")
-	)
 	(hierarchical_label "GAIN_IN-_0"
 		(shape input)
-		(at 36.83 60.96 270)
+		(at 46.99 60.96 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -102,7 +63,7 @@
 	)
 	(hierarchical_label "GAIN_IN+_1"
 		(shape input)
-		(at 48.26 60.96 270)
+		(at 58.42 60.96 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -112,18 +73,5 @@
 			(justify right)
 		)
 		(uuid "dce07b66-7e47-4d94-9474-ba6c1677e71d")
-	)
-	(hierarchical_label "GAIN_IN-_2"
-		(shape input)
-		(at 77.47 60.96 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "ddf60b57-b5f9-441d-824e-0813e389bd5d")
 	)
 )

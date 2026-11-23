@@ -1,5 +1,5 @@
 # vireo
-> Engineering **vire**, a lightweight aduio interface
+> Engineering **vireo**, a lightweight aduio interface
 
 Audio interface designed for low-latency instrument and mic tracking.
 
