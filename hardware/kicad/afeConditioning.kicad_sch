@@ -1414,365 +1414,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAV99S"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAV99S"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "High-speed switching diodes, dual series, SOT-363"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?363*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BAV99S_0_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAV99S_1_1"
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K3A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "BAV99S_2_1"
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K1A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "K4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Relay:G6K-2"
+		(symbol "Relay:EE2-5NU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "K"
-				(at 16.51 3.81 0)
+				(at 15.24 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "G6K-2"
-				(at 16.51 1.27 0)
+			(property "Value" "EE2-5NU"
+				(at 19.05 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(property "Footprint" "Relay_SMD:Relay_DPDT_Kemet_EE2_NU"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1783,7 +1451,7 @@
 					)
 				)
 			)
-			(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1794,7 +1462,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Miniature Relay Dual Pole DPDT Omron"
+			(property "Description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1805,7 +1473,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Relay*DPDT*Omron*G6K?2*"
+			(property "ki_keywords" "signal relay double pole double throw DPDT DC coil non latching"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1816,17 +1484,18 @@
 					)
 				)
 			)
-			(symbol "G6K-2_0_0"
-				(text "+"
-					(at -9.271 2.921 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "G6K-2_0_1"
+			(symbol "EE2-5NU_1_1"
 				(rectangle
 					(start -15.24 5.08)
 					(end 15.24 -5.08)
@@ -2137,8 +1806,14 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "G6K-2_1_1"
+				(text "+"
+					(at -9.271 2.921 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin passive line
 					(at -10.16 7.62 270)
 					(length 2.54)
@@ -2167,7 +1842,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2185,7 +1860,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2203,7 +1878,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2221,7 +1896,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2239,7 +1914,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2257,7 +1932,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2275,7 +1950,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3046,9 +2721,9 @@
 		)
 		(uuid "1ad82557-7a0a-4d17-83d2-a15680bd5651")
 	)
-	(text "INST/LINE Switch\n"
+	(text "Attentuation Pad"
 		(exclude_from_sim no)
-		(at 188.468 240.284 0)
+		(at 188.468 239.776 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3163,18 +2838,6 @@
 		)
 		(uuid "9ca4c201-10fe-460e-933d-d3b3a8bcc845")
 	)
-	(text "series resistor to limit transient current \nfrom phantom power"
-		(exclude_from_sim no)
-		(at 157.226 181.864 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "ab2409ea-3869-44a8-85a1-f2093c35818c")
-	)
 	(text "minimize loss.\nloss = 20log_10(R_L/( R_L + R_bias))\nwith R_bias = 1M, R_L = 50k\nloss = -0.09 dB\n"
 		(exclude_from_sim no)
 		(at 282.702 147.066 0)
@@ -3198,7 +2861,7 @@
 		)
 		(uuid "b26d34e2-f906-4c45-9c17-feb8fa299e1d")
 	)
-	(text "INST/LINE Switch\n"
+	(text "Attentuation Pad"
 		(exclude_from_sim no)
 		(at 319.278 239.522 0)
 		(effects
@@ -3208,18 +2871,6 @@
 			)
 		)
 		(uuid "bf272ce4-7df2-4d1f-829a-992567b6d718")
-	)
-	(text "minimize loss.\nloss = 20log_10(R_L/( R_L + R_bias))\nwith R_bias = 2.2k, R_L = 100k\nloss = -0.19 dB\n"
-		(exclude_from_sim no)
-		(at 191.516 210.312 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "c7ce772f-9168-40ae-9a1a-87b015ce39d1")
 	)
 	(text "by default, TS input is for instruments so no attentuation is needed. (medium voltage)\n\nfor line level, the signal must be attentuate to avoid clipping (high voltage), the -15dB pad knocks it down\n"
 		(exclude_from_sim no)
@@ -3283,7 +2934,7 @@
 	)
 	(text "47uF is large enough to block the \n48V DC Phantom Power\nfc =~ 1.47Hz, audible signals are unaffected \nrated for 63V, polarized\n"
 		(exclude_from_sim no)
-		(at 159.258 166.624 0)
+		(at 158.496 167.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3294,40 +2945,16 @@
 		(uuid "f64270b7-4620-48d8-881f-ae4355b866e1")
 	)
 	(junction
-		(at 132.08 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "048f01fe-f552-4491-83bf-1ede108d5541")
-	)
-	(junction
-		(at 405.13 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09838b7a-944a-4213-a7f9-2808532e78c1")
-	)
-	(junction
 		(at 389.89 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a0f9d70-740e-42af-ae63-bae38a377cd5")
 	)
 	(junction
-		(at 107.95 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a8c4ad3-4aff-451b-b4fb-657a497c0289")
-	)
-	(junction
 		(at 344.17 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c4730c3-223f-43ef-801c-00ca02ff85ec")
-	)
-	(junction
-		(at 389.89 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ce3455b-d66d-4d27-bbfc-4130b1bd563b")
 	)
 	(junction
 		(at 382.27 116.84)
@@ -3342,34 +2969,16 @@
 		(uuid "13137a1a-7159-4315-a2b8-8eb0b8eec152")
 	)
 	(junction
-		(at 121.92 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14751eaf-b10a-477e-b9c8-3547da2964a9")
-	)
-	(junction
 		(at 270.51 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1656046b-1d76-45f9-8157-edf8a25d7bde")
 	)
 	(junction
-		(at 147.32 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "171b5c94-7da2-4e56-a063-92c95f3d9afb")
-	)
-	(junction
 		(at 276.86 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18cecf99-b0d4-4b1a-aa38-009979d2d608")
-	)
-	(junction
-		(at 415.29 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18ff7569-5450-4dd8-8eed-02f5140827a0")
 	)
 	(junction
 		(at 147.32 173.99)
@@ -3396,46 +3005,16 @@
 		(uuid "2ca45cb1-c3a1-464c-ad3c-073221d8cb22")
 	)
 	(junction
-		(at 358.14 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34b2c040-dab3-42b2-9f59-f885778691d7")
-	)
-	(junction
-		(at 154.94 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3828e8b8-fc44-4525-bd08-5e044964dfa3")
-	)
-	(junction
-		(at 139.7 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ef47ff9-3ab5-4cf5-b049-e5fcc1b1a5e2")
-	)
-	(junction
 		(at 449.58 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f9ebf60-2f44-4069-9ead-3ba2588be095")
 	)
 	(junction
-		(at 389.89 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4239b664-9894-4379-bb54-3ae8d051d998")
-	)
-	(junction
 		(at 257.81 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4673b7f2-9de3-4e92-9186-20c5bc30a6a3")
-	)
-	(junction
-		(at 382.27 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "479d148f-4a3d-4058-84da-12f8f7c8eda4")
 	)
 	(junction
 		(at 397.51 175.26)
@@ -3456,16 +3035,16 @@
 		(uuid "4b92e53e-516b-4464-acc2-f83c5353a64c")
 	)
 	(junction
+		(at 379.73 114.2525)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51b440cf-3e46-46a7-aa2c-75617a590a26")
+	)
+	(junction
 		(at 397.51 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "560b2155-4dc1-4fab-acf7-982c2824e3ad")
-	)
-	(junction
-		(at 107.95 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5701a560-22d0-45da-8394-2244d6d93676")
 	)
 	(junction
 		(at 132.08 116.84)
@@ -3478,18 +3057,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6335e37d-5b90-4bf8-aea5-f14f68a717b4")
-	)
-	(junction
-		(at 179.07 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64b99dff-0097-4b81-bd34-57355816fb43")
-	)
-	(junction
-		(at 139.7 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66263735-c9f6-40b5-836f-389a21c35e3c")
 	)
 	(junction
 		(at 139.7 173.99)
@@ -3516,12 +3083,6 @@
 		(uuid "722019cd-c075-4dde-9bc1-ae17ecfe97f2")
 	)
 	(junction
-		(at 429.26 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c3e3af9-3d1a-4e30-9698-675c6bd66e41")
-	)
-	(junction
 		(at 401.32 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3532,12 +3093,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82128081-8a54-4576-98db-05f0bc78b2f1")
-	)
-	(junction
-		(at 397.51 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89ba20a4-efd6-4ac6-bd64-38131e54a375")
 	)
 	(junction
 		(at 464.82 120.65)
@@ -3558,28 +3113,10 @@
 		(uuid "90f9d6da-8104-4df2-b9b6-fa9d8e9a7f58")
 	)
 	(junction
-		(at 165.1 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9471650d-259e-4a93-8ed2-7e1c1dc7192b")
-	)
-	(junction
 		(at 389.89 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9684d39f-5d17-4dfc-9a3e-40dd4b3ac555")
-	)
-	(junction
-		(at 397.51 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bd1a055-b176-4d08-b6d6-064f500368b1")
-	)
-	(junction
-		(at 165.1 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7212fc1-18b6-4246-8100-1fa1e390dedb")
 	)
 	(junction
 		(at 486.41 180.34)
@@ -3594,22 +3131,10 @@
 		(uuid "aeb1d6f4-3b27-4f10-b843-313b6b864b1c")
 	)
 	(junction
-		(at 358.14 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0254198-2d25-43b6-b335-290b36d9765b")
-	)
-	(junction
 		(at 265.43 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1197a00-90bd-456c-acbd-ed40810c0737")
-	)
-	(junction
-		(at 372.11 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b287420e-8899-403c-b97f-90bec9ba87d6")
 	)
 	(junction
 		(at 382.27 106.68)
@@ -3648,22 +3173,10 @@
 		(uuid "bbf5eef3-44f4-4f61-87b4-141b8c650fd9")
 	)
 	(junction
-		(at 147.32 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf09e841-67c6-4656-931d-3a514fb8091b")
-	)
-	(junction
 		(at 265.43 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c17cc49e-08c8-48e5-8176-446f5610bcaa")
-	)
-	(junction
-		(at 415.29 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c20eed33-be50-434c-b21f-56806107f6ed")
 	)
 	(junction
 		(at 464.82 130.81)
@@ -3726,12 +3239,6 @@
 		(uuid "d9127266-6942-4eb3-8be5-4b3734482bc6")
 	)
 	(junction
-		(at 121.92 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcb74090-1547-4322-b130-ec1f35e612bc")
-	)
-	(junction
 		(at 389.89 126.9955)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3756,34 +3263,16 @@
 		(uuid "ea395a68-7235-4a2b-a57f-4226a08297ed")
 	)
 	(junction
-		(at 179.07 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed0dfd32-79cc-4af3-84c3-6568b56ea046")
-	)
-	(junction
 		(at 250.19 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee7622a0-da21-4cbc-b697-1e810d10bddb")
 	)
 	(junction
-		(at 429.26 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efec5c46-6b73-42bd-80c3-b44c70f4447b")
-	)
-	(junction
 		(at 247.65 254)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f517f877-f74d-43dd-98f6-465366f02e24")
-	)
-	(junction
-		(at 372.11 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcde3452-8051-446a-9373-fc4bfca72d91")
 	)
 	(junction
 		(at 449.58 182.88)
@@ -3893,46 +3382,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 201.93) (xy 134.62 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "066632d5-62ec-477d-84e4-4a80ab9f67d2")
-	)
-	(wire
-		(pts
-			(xy 107.95 186.69) (xy 107.95 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0710e596-0632-40d3-8f7c-4a7de4249f23")
-	)
-	(wire
-		(pts
-			(xy 121.92 186.69) (xy 134.62 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0715effb-a491-4373-89cf-bb3857bc460d")
-	)
-	(wire
-		(pts
-			(xy 358.14 199.39) (xy 358.14 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "093b0138-7876-4ca9-af19-a8244afc5ef8")
-	)
-	(wire
-		(pts
 			(xy 260.35 181.61) (xy 271.78 181.61)
 		)
 		(stroke
@@ -3950,26 +3399,6 @@
 			(type default)
 		)
 		(uuid "0d54b0c8-f7ab-4b97-9d81-c76251c11b47")
-	)
-	(wire
-		(pts
-			(xy 107.95 198.12) (xy 107.95 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e04ab20-d21f-4593-85a9-20c28eaa684e")
-	)
-	(wire
-		(pts
-			(xy 389.89 208.28) (xy 389.89 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e4d657f-3749-4401-9f75-0008b0f5262e")
 	)
 	(wire
 		(pts
@@ -4083,16 +3512,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 203.2) (xy 384.81 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e0f6830-1751-427e-bae9-c89f46ce25a3")
-	)
-	(wire
-		(pts
 			(xy 457.2 161.29) (xy 457.2 177.8)
 		)
 		(stroke
@@ -4110,16 +3529,6 @@
 			(type default)
 		)
 		(uuid "23de2b34-a0d8-4741-962f-a13ef514c988")
-	)
-	(wire
-		(pts
-			(xy 165.1 201.93) (xy 152.4 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2490ea1a-ca14-439d-b2e1-6c4f35ca44b0")
 	)
 	(wire
 		(pts
@@ -4150,16 +3559,6 @@
 			(type default)
 		)
 		(uuid "29e31f65-4261-4f71-b89a-77db95c2bb42")
-	)
-	(wire
-		(pts
-			(xy 165.1 198.12) (xy 165.1 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa24904-9452-4db7-bbaa-08d0f17de5c0")
 	)
 	(wire
 		(pts
@@ -4243,7 +3642,17 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 168.91) (xy 449.58 182.88)
+			(xy 250.19 168.91) (xy 250.19 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393db795-a5a4-41b8-af1b-ed5aa574688e")
+	)
+	(wire
+		(pts
+			(xy 449.58 179.07) (xy 449.58 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4293,26 +3702,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 187.96) (xy 372.11 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f87eaf9-cc32-4ef4-bbb7-bee01555f142")
-	)
-	(wire
-		(pts
-			(xy 179.07 198.12) (xy 179.07 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ff87e5c-16a6-4b4a-8c89-5c6c8d116692")
-	)
-	(wire
-		(pts
 			(xy 389.89 126.9955) (xy 389.89 130.81)
 		)
 		(stroke
@@ -4353,16 +3742,6 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 187.96) (xy 415.29 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4458d9e7-ed27-4554-b020-ff49f29320e7")
-	)
-	(wire
-		(pts
 			(xy 389.89 138.43) (xy 389.89 140.97)
 		)
 		(stroke
@@ -4393,53 +3772,13 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 203.2) (xy 415.29 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4824e8e9-f00e-4a37-b448-5b77763f396e")
-	)
-	(wire
-		(pts
-			(xy 429.26 199.39) (xy 429.26 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b28f950-ad4e-43a3-b712-6046bb58fd5a")
-	)
-	(wire
-		(pts
-			(xy 179.07 186.69) (xy 179.07 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c1821b0-ca3e-42ab-a833-6cedc73b7d43")
-	)
-	(wire
-		(pts
-			(xy 457.2 156.21) (xy 457.2 161.29)
+			(xy 457.2 158.75) (xy 457.2 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5074aee7-e1b9-431b-9f7a-7ed1a95ec37b")
-	)
-	(wire
-		(pts
-			(xy 372.11 187.96) (xy 384.81 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d61110-fbb1-4fae-85f3-7e549e75c969")
 	)
 	(wire
 		(pts
@@ -4483,26 +3822,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 194.31) (xy 139.7 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5935e028-1cfc-4400-8b15-3648ce9f7dc1")
-	)
-	(wire
-		(pts
-			(xy 139.7 207.01) (xy 139.7 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59713d64-e475-47fe-90f3-47f9fa518542")
-	)
-	(wire
-		(pts
 			(xy 139.7 173.99) (xy 139.7 177.8)
 		)
 		(stroke
@@ -4520,16 +3839,6 @@
 			(type default)
 		)
 		(uuid "5a5bf620-215f-497b-aa0d-422145a06557")
-	)
-	(wire
-		(pts
-			(xy 358.14 187.96) (xy 358.14 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b44f9f5-a94d-42ad-ae3e-2e09ecea6c44")
 	)
 	(wire
 		(pts
@@ -4560,36 +3869,6 @@
 			(type default)
 		)
 		(uuid "5e058dc3-689e-4e3e-a5d5-c8b0ddd1045d")
-	)
-	(wire
-		(pts
-			(xy 415.29 199.39) (xy 415.29 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eb12f42-1798-40f0-829b-e836d746539f")
-	)
-	(wire
-		(pts
-			(xy 397.51 195.58) (xy 397.51 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60d7de07-43bb-45ff-b43c-57980c643b8d")
-	)
-	(wire
-		(pts
-			(xy 121.92 198.12) (xy 121.92 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60de6c76-9456-412f-aac3-5a0c5c6713b1")
 	)
 	(wire
 		(pts
@@ -4703,16 +3982,6 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 186.69) (xy 397.51 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76662729-d0bc-46e4-acf7-55ac4a9126e9")
-	)
-	(wire
-		(pts
 			(xy 257.81 132.08) (xy 257.81 135.89)
 		)
 		(stroke
@@ -4720,16 +3989,6 @@
 			(type default)
 		)
 		(uuid "76a5d363-8d0a-4bae-a4bd-913156c22924")
-	)
-	(wire
-		(pts
-			(xy 165.1 186.69) (xy 165.1 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77cb196a-28c1-47f2-aa7d-af82ff9068ac")
 	)
 	(wire
 		(pts
@@ -4773,6 +4032,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 114.3) (xy 379.73 114.2525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdfcb5d-9902-4d29-895b-8afdec18aba6")
+	)
+	(wire
+		(pts
 			(xy 397.51 157.48) (xy 397.51 163.83)
 		)
 		(stroke
@@ -4783,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 114.3) (xy 384.81 114.3)
+			(xy 379.73 114.3) (xy 379.73 114.2525)
 		)
 		(stroke
 			(width 0)
@@ -4813,16 +4082,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 186.69) (xy 121.92 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f9046e6-31ff-4bc6-9b1b-62ac9af5420d")
-	)
-	(wire
-		(pts
 			(xy 389.89 171.45) (xy 389.89 175.26)
 		)
 		(stroke
@@ -4840,16 +4099,6 @@
 			(type default)
 		)
 		(uuid "82973ec1-15ed-45a0-abed-d1c9b5bff8a8")
-	)
-	(wire
-		(pts
-			(xy 139.7 185.42) (xy 139.7 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e83604-7307-413e-83f4-d03417c336c6")
 	)
 	(wire
 		(pts
@@ -4943,16 +4192,6 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 187.96) (xy 415.29 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c1df0e-d807-423b-8f54-c1752f2d8985")
-	)
-	(wire
-		(pts
 			(xy 389.89 157.48) (xy 389.89 163.83)
 		)
 		(stroke
@@ -5003,16 +4242,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 186.69) (xy 165.1 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ccbcbad-9ec4-43bf-bff7-e324e7e0dbef")
-	)
-	(wire
-		(pts
 			(xy 401.32 260.35) (xy 401.32 267.97)
 		)
 		(stroke
@@ -5053,16 +4282,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 207.01) (xy 147.32 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a00c9dde-4108-42b6-a6a3-c3e20e242e33")
-	)
-	(wire
-		(pts
 			(xy 147.32 156.21) (xy 147.32 162.56)
 		)
 		(stroke
@@ -5080,6 +4299,16 @@
 			(type default)
 		)
 		(uuid "a2f52014-c635-4bb5-abb2-fefa9ddf2d06")
+	)
+	(wire
+		(pts
+			(xy 449.58 171.45) (xy 449.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a47335-196e-4abf-89a7-dc77a4e664d0")
 	)
 	(wire
 		(pts
@@ -5103,26 +4332,6 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 203.2) (xy 402.59 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6281444-709c-4533-9dc2-35fe85902faf")
-	)
-	(wire
-		(pts
-			(xy 121.92 190.5) (xy 121.92 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa7578fa-528f-47a3-8790-400da6db64c4")
-	)
-	(wire
-		(pts
 			(xy 397.51 171.45) (xy 397.51 175.26)
 		)
 		(stroke
@@ -5133,13 +4342,13 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 199.39) (xy 372.11 203.2)
+			(xy 457.2 151.13) (xy 457.2 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab917fa9-0ebb-4a87-9de5-02e91fbc37e9")
+		(uuid "aca6227b-fddc-47f5-954a-e0cc46092ef4")
 	)
 	(wire
 		(pts
@@ -5163,16 +4372,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 191.77) (xy 372.11 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3202373-840e-46d0-9fc4-d871253b4065")
-	)
-	(wire
-		(pts
 			(xy 386.08 260.35) (xy 386.08 267.97)
 		)
 		(stroke
@@ -5183,7 +4382,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 170.18) (xy 250.19 181.61)
+			(xy 250.19 176.53) (xy 250.19 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5223,16 +4422,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 201.93) (xy 165.1 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa156ed-83b6-4d1b-ba79-bdad59ade083")
-	)
-	(wire
-		(pts
 			(xy 382.27 106.68) (xy 382.27 116.84)
 		)
 		(stroke
@@ -5250,16 +4439,6 @@
 			(type default)
 		)
 		(uuid "bb86e6dc-2a19-47d5-b46a-ca35ba4f0041")
-	)
-	(wire
-		(pts
-			(xy 389.89 186.69) (xy 389.89 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcdf2212-eedd-4e52-9606-1da873ee18b9")
 	)
 	(wire
 		(pts
@@ -5283,16 +4462,6 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 187.96) (xy 429.26 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf99d4a4-96be-48a4-a670-115c03d086e3")
-	)
-	(wire
-		(pts
 			(xy 198.12 264.16) (xy 213.36 264.16)
 		)
 		(stroke
@@ -5310,26 +4479,6 @@
 			(type default)
 		)
 		(uuid "c8ba70d9-b10c-495a-9241-3e711adf2a2e")
-	)
-	(wire
-		(pts
-			(xy 389.89 195.58) (xy 389.89 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb810f28-4928-48a3-a023-b9dd8d9325db")
-	)
-	(wire
-		(pts
-			(xy 147.32 185.42) (xy 147.32 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbac95d2-33a8-42c9-84fd-d9752db70385")
 	)
 	(wire
 		(pts
@@ -5383,6 +4532,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 114.2525) (xy 384.81 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3326afc-61f0-46d1-8b50-b6ea07402376")
+	)
+	(wire
+		(pts
 			(xy 355.6 283.21) (xy 364.49 283.21)
 		)
 		(stroke
@@ -5400,16 +4559,6 @@
 			(type default)
 		)
 		(uuid "d8d2e1de-4757-4769-9415-00f25fd5349f")
-	)
-	(wire
-		(pts
-			(xy 152.4 186.69) (xy 165.1 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8fa88a6-a66b-4c27-8f0a-5a4ee8bd5f8f")
 	)
 	(wire
 		(pts
@@ -5483,26 +4632,6 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 187.96) (xy 415.29 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9a7acbd-0076-473a-84e5-c996925a68d9")
-	)
-	(wire
-		(pts
-			(xy 147.32 194.31) (xy 147.32 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea773377-a07b-419c-b3b6-b6812340a331")
-	)
-	(wire
-		(pts
 			(xy 137.16 115.57) (xy 132.08 115.57)
 		)
 		(stroke
@@ -5550,16 +4679,6 @@
 			(type default)
 		)
 		(uuid "f5573b7f-2203-4bfb-b828-c23b81320d38")
-	)
-	(wire
-		(pts
-			(xy 397.51 208.28) (xy 397.51 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5d6fa2c-381e-430e-9fc6-053a9c11fc0f")
 	)
 	(wire
 		(pts
@@ -6017,7 +5136,7 @@
 	)
 	(hierarchical_label "CH1_GN"
 		(shape input)
-		(at 379.73 114.2525 180)
+		(at 378.46 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6028,7 +5147,7 @@
 	)
 	(hierarchical_label "AFE1_OUTN"
 		(shape input)
-		(at 389.89 210.82 270)
+		(at 389.89 179.07 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6094,7 +5213,7 @@
 	)
 	(hierarchical_label "AFE0_OUTN"
 		(shape input)
-		(at 139.7 209.55 270)
+		(at 139.7 177.8 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6138,7 +5257,7 @@
 	)
 	(hierarchical_label "AFE0_OUTP"
 		(shape input)
-		(at 147.32 209.55 270)
+		(at 147.32 177.8 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6160,7 +5279,7 @@
 	)
 	(hierarchical_label "AFE1_OUTP"
 		(shape input)
-		(at 397.51 210.82 270)
+		(at 397.51 179.07 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6190,85 +5309,6 @@
 			(justify left)
 		)
 		(uuid "f968ca7f-2953-4231-87a1-f26b5e39b398")
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 179.07 186.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "011cf64e-3f87-44f7-aed4-4a47814e1b2b")
-		(property "Reference" "#PWR076"
-			(at 175.26 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 182.88 186.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 179.07 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c662c00-254e-4b45-b805-750bbda74271")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6348,85 +5388,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 405.13 208.28 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "047e4857-32ae-42b1-9b15-32cf605bad0f")
-		(property "Reference" "#PWR093"
-			(at 401.32 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBIAS"
-			(at 408.94 208.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 405.13 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 405.13 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 405.13 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "635bd353-22b7-4489-8607-da08e85997ab")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 130.81 173.99 0)
 		(unit 1)
@@ -6499,88 +5460,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 429.26 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09a52f58-faef-4aea-9975-fd25b244b5f0")
-		(property "Reference" "C73"
-			(at 433.07 194.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 433.07 196.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 430.2252 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 429.26 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 429.26 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3ab515f7-222e-4b7d-a904-a34d26f9e8e9")
-		)
-		(pin "1"
-			(uuid "2571a1e8-7558-4d43-a998-054155107f19")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -6911,84 +5790,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 405.13 215.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bc06958-5f33-48d0-92c4-45acc0655258")
-		(property "Reference" "#PWR094"
-			(at 405.13 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 405.13 220.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 405.13 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 405.13 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 405.13 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4076617-1c80-4ebb-9b10-2f7f8487c30d")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 151.13 156.21 270)
 		(unit 1)
@@ -7062,250 +5863,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 147.32 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1f042b44-efe2-4b19-9324-7cf0c49f8b29")
-		(property "Reference" "R61"
-			(at 149.352 180.594 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 149.352 183.134 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 145.542 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "78e10e53-53e1-40bf-a208-f9c2a006a294")
-		)
-		(pin "1"
-			(uuid "4473e414-c5bf-4773-ba1f-dc274901aa3c")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 382.27 212.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "21ff1c5e-72c7-49f7-be30-feb96a6cf4ab")
-		(property "Reference" "C66"
-			(at 373.126 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 373.126 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 381.3048 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 382.27 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5977d4c9-af66-46ff-9a00-6579639e77d0")
-		)
-		(pin "2"
-			(uuid "6b78554f-b331-407a-b596-567fc262a699")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 415.29 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23499bd5-1afb-4644-86bc-639fa6debdbe")
-		(property "Reference" "C72"
-			(at 419.1 194.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 419.1 196.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 416.2552 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 415.29 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 415.29 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "729f7010-3fc0-4abb-9979-fad514d49838")
-		)
-		(pin "1"
-			(uuid "60960852-9d4d-4063-88a9-572289338394")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -7650,178 +6207,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAV99S")
-		(at 152.4 194.31 270)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32ce99f0-435e-4bf9-90d3-484f7599a5b1")
-		(property "Reference" "D33"
-			(at 154.94 194.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAV99S"
-			(at 154.94 196.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 139.7 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 152.4 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-speed switching diodes, dual series, SOT-363"
-			(at 152.4 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "562a8693-8b5c-4cd1-bdc9-fdcf3f8c20e6")
-		)
-		(pin "1"
-			(uuid "92f8a12c-6cdf-4547-87a3-8e6ffdc4725f")
-		)
-		(pin "2"
-			(uuid "24308634-46f3-4373-8996-da1b90a1b990")
-		)
-		(pin "3"
-			(uuid "6e4023eb-7040-4a7b-8581-216fa34569a3")
-		)
-		(pin "4"
-			(uuid "c9029a70-6b74-4d86-910a-8e8c54c8ae0f")
-		)
-		(pin "5"
-			(uuid "de97766e-bf62-4267-a49d-74d6faa9b938")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "D33")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 358.14 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32de2006-db09-4cdb-b8bf-84d31f7b0916")
-		(property "Reference" "#PWR088"
-			(at 358.14 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 358.14 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 358.14 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 358.14 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c37e648-c691-49d4-ba83-5ce479bd19b9")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Audio:NCJ10FI-V")
 		(at 139.7 105.41 0)
 		(unit 1)
@@ -8095,166 +6480,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 358.14 187.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36e610ec-6787-42ce-a775-febfc0b1e901")
-		(property "Reference" "#PWR087"
-			(at 361.95 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 354.33 187.9599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 358.14 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 358.14 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04ec29ad-546f-4715-84d0-a939f02ca2eb")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 405.13 212.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "378875f7-540c-45e4-ac44-970850c719d1")
-		(property "Reference" "C71"
-			(at 408.94 212.344 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 408.94 214.884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 404.1648 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 405.13 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 405.13 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38d849c7-107c-4398-a7c2-5a97fdb03679")
-		)
-		(pin "2"
-			(uuid "f3706342-0958-432c-b837-17637e7dd462")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -9001,87 +7226,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 210.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4cb2fc5a-bbd3-491e-b1de-8d3e10f79852")
-		(property "Reference" "C51"
-			(at 122.936 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 122.936 213.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.1148 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 132.08 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "049e8d8e-17ed-47be-92e0-f158bfd5f789")
-		)
-		(pin "2"
-			(uuid "65aadfbd-108b-45ce-8ed9-5ed8b9e76997")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 497.84 180.34 90)
 		(unit 1)
 		(body_style 1)
@@ -9162,85 +7306,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 401.32 208.28 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58c97c7a-6e14-47ab-98fe-89bf5dd9afb2")
-		(property "Reference" "R84"
-			(at 401.32 210.312 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 401.32 208.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 401.32 206.502 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 401.32 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 401.32 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d031912-db84-4da0-9bea-dd2a954a757b")
-		)
-		(pin "2"
-			(uuid "40916649-08ef-47a2-ade8-bfc475148e86")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "R84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 135.89 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -9313,85 +7378,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 154.94 207.01 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "594f7734-bc53-4bdc-ae09-c7b3a7b30fb6")
-		(property "Reference" "#PWR073"
-			(at 151.13 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBIAS"
-			(at 158.75 207.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 154.94 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc86ddd4-8d33-4c47-96c6-34fa834e2240")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -9558,87 +7544,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 382.27 208.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "610b244e-bb9c-46c5-8993-7608ad641ee4")
-		(property "Reference" "#PWR091"
-			(at 386.08 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBIAS"
-			(at 378.46 208.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 382.27 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "edcfd6b8-13c4-4021-a743-9cfc12aca0c7")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 457.2 152.4 0)
+		(at 457.2 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9648,17 +7555,6 @@
 		(dnp no)
 		(uuid "64c47e41-578f-4549-94cd-2c4441616bc9")
 		(property "Reference" "C75"
-			(at 448.31 151.384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
 			(at 448.31 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9669,8 +7565,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100nF"
+			(at 448.31 156.464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 458.1652 156.21 0)
+			(at 458.1652 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9681,7 +7588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 457.2 152.4 0)
+			(at 457.2 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9692,7 +7599,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 457.2 152.4 0)
+			(at 457.2 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9712,85 +7619,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "C75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 151.13 207.01 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65c5e12a-66ff-4306-b1db-58c0268a5031")
-		(property "Reference" "R64"
-			(at 151.13 209.042 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 151.13 207.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 205.232 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 151.13 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d688aa3-8003-4a7b-a6a7-8cc0e427ae6b")
-		)
-		(pin "2"
-			(uuid "c68de131-3e64-4a2f-a9bc-3e33ba4f942e")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -9882,322 +7710,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "D42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 107.95 186.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67cbb51c-22de-4efc-a3db-97199a01cff7")
-		(property "Reference" "#PWR068"
-			(at 111.76 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 104.14 186.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 107.95 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9f39554-39cf-4ba4-b717-4c3d4382a5af")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 214.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "694c4676-3e07-4311-856f-32c4507f5e17")
-		(property "Reference" "#PWR072"
-			(at 132.08 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 132.08 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5d31be6-72e9-40a2-bf0d-300d6cd61f82")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 397.51 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6a2d2128-8d67-47d3-92c1-1f69f8697638")
-		(property "Reference" "R81"
-			(at 399.542 181.864 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 399.542 184.404 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 395.732 182.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 397.51 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 397.51 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2fd52e80-b084-40c4-8975-621d770f216a")
-		)
-		(pin "1"
-			(uuid "497402bf-130f-4349-8016-83b4bdcc2d98")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "R81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 429.26 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c1adeb0-bea0-4a8f-a536-2be407e768eb")
-		(property "Reference" "#PWR097"
-			(at 429.26 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 426.466 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 429.26 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 429.26 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 429.26 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b49e2f27-ec7c-426b-be87-b7ccdffcd477")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -10361,99 +7873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAV99S")
-		(at 134.62 194.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "76ca5417-7b38-4559-8cf3-ae1dbb83a5f2")
-		(property "Reference" "D33"
-			(at 131.826 194.056 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAV99S"
-			(at 131.826 196.596 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 147.32 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 134.62 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-speed switching diodes, dual series, SOT-363"
-			(at 134.62 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "6f38b9af-a0c4-41f0-8ede-bd666ecb3a70")
-		)
-		(pin "1"
-			(uuid "1161dc58-d05a-4e0b-a46e-2b364127d06e")
-		)
-		(pin "6"
-			(uuid "a16a7003-f47c-442a-b32a-5db31dbc5563")
-		)
-		(pin "5"
-			(uuid "b93e5aa5-1874-4c47-9ba9-706877ce199e")
-		)
-		(pin "3"
-			(uuid "6105db36-aeed-4b55-bc02-9b79c895b11b")
-		)
-		(pin "2"
-			(uuid "48596b68-007b-47ce-8bc2-ef65ebf2ba10")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "D33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 449.58 161.29 90)
 		(unit 1)
@@ -10605,85 +8024,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 132.08 207.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79dbdd95-388d-4be2-bbcd-e935c565a021")
-		(property "Reference" "#PWR071"
-			(at 135.89 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBIAS"
-			(at 128.27 207.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 132.08 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a8c16872-5a36-4f22-b66e-7420e78819c3")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -10929,166 +8269,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 386.08 208.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "82b01db1-66ac-414f-8c6e-6a9b0de93360")
-		(property "Reference" "R77"
-			(at 386.08 210.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 386.08 208.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 386.08 210.058 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 386.08 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 386.08 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1cd0dc2b-8435-4fec-99a4-4ffd5816a101")
-		)
-		(pin "2"
-			(uuid "158ff9bf-40c9-4402-b375-15d62a1637a6")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "R77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 389.89 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83926efe-f4e8-4980-a10d-4ce94dfc73f3")
-		(property "Reference" "R79"
-			(at 383.54 181.864 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 383.54 184.404 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 388.112 182.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 389.89 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 389.89 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9c0d6a04-9fde-4d19-af33-06d857217d9a")
-		)
-		(pin "1"
-			(uuid "5dceb7ad-12c3-4c79-a45c-b48ca64c75b2")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 261.62 143.51 90)
 		(unit 1)
@@ -11162,169 +8342,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "C61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 179.07 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88cf9d8a-e090-4b26-9015-955a0299c38c")
-		(property "Reference" "C58"
-			(at 182.88 193.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 182.88 195.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 180.0352 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 179.07 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0e4190b4-d2ec-4b9e-a44a-6ae8a72aaa7b")
-		)
-		(pin "1"
-			(uuid "e016a25c-ce51-41fd-bbec-7ca2479f0848")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 358.14 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89d6da43-f64e-4f0f-b450-d63223b29784")
-		(property "Reference" "C64"
-			(at 348.996 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 348.996 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 359.1052 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 358.14 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "15606559-d24f-4efe-af00-b1b40bf5c530")
-		)
-		(pin "1"
-			(uuid "b7fdd334-ece0-4df5-af5a-47d6685e7410")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -11495,87 +8512,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 107.95 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8de9cf56-1ded-40a9-848c-76ab981ee2cb")
-		(property "Reference" "C49"
-			(at 98.806 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 98.806 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 108.9152 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9ad5b107-fac7-45f1-a405-2d4ca5b3e574")
-		)
-		(pin "1"
-			(uuid "09364c40-3ece-4bc9-bc29-c78c46024254")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -11896,85 +8832,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "C69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 135.89 207.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c1dff0d-3633-43a9-bc93-ab62e319f007")
-		(property "Reference" "R57"
-			(at 135.89 209.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 135.89 207.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 208.788 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 135.89 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "382bb603-9719-444a-81a6-608994190b25")
-		)
-		(pin "2"
-			(uuid "e83ea6e8-2c2e-49d3-b8c7-a4bdc1d15b7c")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -12398,100 +9255,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAV99S")
-		(at 402.59 195.58 270)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a39eb8ab-db37-4f50-bbaa-dfc000c2d31b")
-		(property "Reference" "D39"
-			(at 405.13 195.5799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAV99S"
-			(at 405.13 198.1199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 389.89 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 402.59 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-speed switching diodes, dual series, SOT-363"
-			(at 402.59 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "562a8693-8b5c-4cd1-bdc9-fdcf3f8c20e9")
-		)
-		(pin "1"
-			(uuid "92f8a12c-6cdf-4547-87a3-8e6ffdc47262")
-		)
-		(pin "2"
-			(uuid "24308634-46f3-4373-8996-da1b90a1b993")
-		)
-		(pin "3"
-			(uuid "96193e7f-7005-47f1-b693-2e02a6ef956c")
-		)
-		(pin "4"
-			(uuid "0783605b-c02c-417b-a2fd-304f29501881")
-		)
-		(pin "5"
-			(uuid "246db855-96e7-4977-8f70-122f10111a66")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "D39")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 401.32 127 0)
 		(unit 1)
@@ -12583,84 +9346,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 179.07 201.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a517fc09-04e5-4294-8b81-ea84e16c7bfa")
-		(property "Reference" "#PWR077"
-			(at 179.07 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 179.07 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c300f40f-dab7-4cfd-bb2f-3cfeef68e86a")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 250.19 162.56 90)
 		(unit 1)
@@ -12741,7 +9426,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 449.58 165.1 180)
+		(at 449.58 175.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12751,7 +9436,7 @@
 		(dnp no)
 		(uuid "a654cf3c-f5de-461b-b38c-ab7f81281dad")
 		(property "Reference" "C74"
-			(at 440.944 165.354 0)
+			(at 440.944 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12762,7 +9447,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 440.944 167.894 0)
+			(at 440.944 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12773,7 +9458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 448.6148 161.29 0)
+			(at 448.6148 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12784,7 +9469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 449.58 165.1 0)
+			(at 449.58 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12795,7 +9480,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 449.58 165.1 0)
+			(at 449.58 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12982,87 +9667,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "R85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 121.92 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "affc533f-44d5-4e91-a43d-e84e1df13880")
-		(property "Reference" "C50"
-			(at 113.792 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 113.792 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 122.8852 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 121.92 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "adf4da22-4389-4821-9733-d39993651388")
-		)
-		(pin "1"
-			(uuid "e1150784-aa56-41fd-bf59-e405fae8520e")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -13311,168 +9915,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 372.11 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3d9812b-e2dc-4006-8e7c-fabd554c6796")
-		(property "Reference" "C65"
-			(at 363.982 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 363.982 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 373.0752 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 372.11 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8747a74a-cb61-4b51-9b88-35e77a0c29ff")
-		)
-		(pin "1"
-			(uuid "526637d9-a3bb-48dd-87fb-06afb9ca5b5f")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 154.94 210.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b43c1f8c-b6e5-49e2-b3e9-b7445708bdba")
-		(property "Reference" "C56"
-			(at 158.75 211.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 158.75 213.614 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.9748 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 154.94 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ed7f397-3708-4659-b38f-88af34bfbb16")
-		)
-		(pin "2"
-			(uuid "b20ba1b6-e0f9-4a3e-88e7-91113a21dcc1")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 397.51 134.62 0)
 		(unit 1)
@@ -13554,7 +9996,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G6K-2")
+		(lib_id "Relay:EE2-5NU")
 		(at 388.62 275.59 0)
 		(unit 1)
 		(body_style 1)
@@ -13565,7 +10007,7 @@
 		(dnp no)
 		(uuid "b7c0ffbe-1d6e-4f97-9a05-66bb970e238d")
 		(property "Reference" "K4"
-			(at 369.824 274.32 0)
+			(at 369.824 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13574,8 +10016,8 @@
 				)
 			)
 		)
-		(property "Value" "G6K-2"
-			(at 369.824 276.86 0)
+		(property "Value" "EE2-NU"
+			(at 369.57 280.162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13584,19 +10026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G6E"
-			(at 388.62 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Kemet_EE2_NU"
 			(at 388.62 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -13607,7 +10037,7 @@
 				)
 			)
 		)
-		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
 			(at 388.62 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -13618,13 +10048,24 @@
 				)
 			)
 		)
-		(pin "7"
+		(property "Description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
+			(at 388.62 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
 			(uuid "26a952ab-fd56-4aa7-9845-2bfdd75d0a18")
 		)
 		(pin "3"
 			(uuid "6fb0685a-00f9-4250-b9da-bb706560b328")
 		)
-		(pin "6"
+		(pin "9"
 			(uuid "0cc94154-e16f-402c-88bc-be8c199ba748")
 		)
 		(pin "1"
@@ -13639,7 +10080,7 @@
 		(pin "5"
 			(uuid "132522fc-b4af-49ca-bc2a-3eead684ca36")
 		)
-		(pin "2"
+		(pin "10"
 			(uuid "b01932c9-c25d-437d-8eb8-dd470a253218")
 		)
 		(instances
@@ -14175,99 +10616,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAV99S")
-		(at 384.81 195.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cce41e55-ddf6-49e8-bc28-b84a432f732f")
-		(property "Reference" "D39"
-			(at 382.016 195.326 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAV99S"
-			(at 382.016 197.866 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 397.51 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 384.81 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-speed switching diodes, dual series, SOT-363"
-			(at 384.81 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "6f38b9af-a0c4-41f0-8ede-bd666ecb3a72")
-		)
-		(pin "1"
-			(uuid "818351a7-25a4-4f3c-beff-e6635a1fb7e4")
-		)
-		(pin "6"
-			(uuid "c1f304a1-f3b3-42e5-9e93-57eebc6cd98e")
-		)
-		(pin "5"
-			(uuid "b93e5aa5-1874-4c47-9ba9-706877ce19a0")
-		)
-		(pin "3"
-			(uuid "6105db36-aeed-4b55-bc02-9b79c895b11d")
-		)
-		(pin "2"
-			(uuid "4bb00acb-1286-40b4-af48-c972ecd46101")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "D39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Audio:NCJ10FI-V")
 		(at 389.89 106.68 0)
 		(unit 1)
@@ -14369,84 +10717,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 214.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfa59d57-2d45-4e6a-ac59-f565bd5552d5")
-		(property "Reference" "#PWR074"
-			(at 154.94 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 154.94 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29093387-af3b-45eb-bcbd-c76189f4d483")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -14685,88 +10955,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 165.1 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7b19877-fa6d-4739-9a21-7c6021fffb83")
-		(property "Reference" "C57"
-			(at 168.91 193.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 168.91 195.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 166.0652 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 165.1 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b34ac3ba-917b-4758-ac0d-1be9858afc34")
-		)
-		(pin "1"
-			(uuid "7c9a1204-10f8-4680-be64-78907999488a")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -15043,87 +11231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 139.7 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dbe938dd-49c3-4a3e-8629-e895cadc4d27")
-		(property "Reference" "R59"
-			(at 133.35 180.594 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 133.35 183.134 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.922 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3eb09e3e-c61e-4e51-a839-daf2fa99a993")
-		)
-		(pin "1"
-			(uuid "f0b5e741-ab2d-4c78-ba37-c8c9e6f951a7")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 449.58 182.88 0)
 		(unit 1)
@@ -15203,7 +11310,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 250.19 166.37 180)
+		(at 250.19 172.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15213,7 +11320,7 @@
 		(dnp no)
 		(uuid "e2ba71f4-61c7-4acf-a1aa-1a4212bf25e0")
 		(property "Reference" "C59"
-			(at 241.554 166.624 0)
+			(at 241.554 172.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15224,7 +11331,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 241.554 169.164 0)
+			(at 241.554 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15235,7 +11342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 249.2248 162.56 0)
+			(at 249.2248 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15246,7 +11353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 166.37 0)
+			(at 250.19 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15257,7 +11364,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 250.19 166.37 0)
+			(at 250.19 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15283,85 +11390,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 107.95 201.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2cbe86f-fb8f-4acc-8c01-0d37bd4525d6")
-		(property "Reference" "#PWR069"
-			(at 107.95 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 107.95 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84eaabd4-1c3d-499d-931c-ca369b271f05")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:G6K-2")
+		(lib_id "Relay:EE2-5NU")
 		(at 257.81 261.62 0)
 		(unit 1)
 		(body_style 1)
@@ -15372,7 +11401,7 @@
 		(dnp no)
 		(uuid "e3c5be09-6d19-4350-a3ad-707ebe9ff30c")
 		(property "Reference" "K3"
-			(at 239.014 260.35 0)
+			(at 238.506 263.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15381,8 +11410,8 @@
 				)
 			)
 		)
-		(property "Value" "G6K-2"
-			(at 239.014 262.89 0)
+		(property "Value" "EE2-NU"
+			(at 238.506 265.938 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15391,19 +11420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G6E"
-			(at 257.81 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Kemet_EE2_NU"
 			(at 257.81 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -15414,7 +11431,7 @@
 				)
 			)
 		)
-		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
 			(at 257.81 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -15425,13 +11442,24 @@
 				)
 			)
 		)
-		(pin "7"
+		(property "Description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
+			(at 257.81 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
 			(uuid "e3bc7402-80d4-440d-9367-2bc467975813")
 		)
 		(pin "3"
 			(uuid "9c0944b1-7667-43b4-aecf-04f2883e6e0e")
 		)
-		(pin "6"
+		(pin "10"
 			(uuid "1fa66361-25a7-4005-93af-06c3920c07e7")
 		)
 		(pin "1"
@@ -15446,7 +11474,7 @@
 		(pin "5"
 			(uuid "03ec3011-0610-4123-ab13-fde456b01831")
 		)
-		(pin "2"
+		(pin "12"
 			(uuid "b8029176-528c-402f-8895-c22eed1dce1b")
 		)
 		(instances
@@ -15776,84 +11804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 429.26 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9a38538-5516-42a0-b8c7-0993e5f23e29")
-		(property "Reference" "#PWR098"
-			(at 429.26 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 429.26 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 429.26 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 429.26 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 429.26 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16210a4e-45f7-4a17-93fa-1d13857f803e")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 401.32 140.97 90)
 		(unit 1)
@@ -16165,84 +12115,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 382.27 215.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fec74664-f6b0-4527-8c13-ef8c3aa2bc9f")
-		(property "Reference" "#PWR092"
-			(at 382.27 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 382.27 220.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6078ca8d-b044-43be-936e-3e1a61790e40")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/3e962bde-1577-4741-a879-5d326008731b"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)

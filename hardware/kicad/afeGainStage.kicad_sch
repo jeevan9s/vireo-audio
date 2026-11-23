@@ -9,10 +9,613 @@
 		(company "Jeevan Sanchez")
 		(comment 1 "Vireo")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Audio:PGA2500"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -9.398 26.416 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PGA2500"
+				(at 5.842 26.924 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+				(at 0.254 -39.116 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pga2500.pdf"
+				(at 0 -33.782 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Digitally Controlled Microphone Preamplifier"
+				(at 0 -36.576 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Digitally Controlled Microphone Preamplifier"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SSOP*5.3*10.2mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PGA2500_0_1"
+				(rectangle
+					(start -10.16 25.4)
+					(end 10.16 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PGA2500_1_1"
+				(pin output line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "GPO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "GPO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "GPO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "GPO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "OVR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -27.94 90)
+					(length 2.54)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "~{DCEN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "0dB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "ZCEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -22.86 180)
+					(length 2.54)
+					(name "VD-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "VA-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "V_{OUT}-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 22.86 180)
+					(length 2.54)
+					(name "V_{OUT}+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "VA+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "VA+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name "VA-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "C_{S22}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "C_{S21}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "C_{S12}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "C_{S11}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "VIN_{COM}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 20.32 0)
+					(length 2.54)
+					(name "V_{IN}-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 22.86 0)
+					(length 2.54)
+					(name "V_{IN}+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -27.94 90)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(text "XLR/Mic levels are low (-60 dBu to -30dBu) and have low impedances(~150 to 600 ohms)\ntherefore, their gain stages require the highest amount of preamp. (+30dB to +60dB of gain)\nnoise within the preamp circuit will also be amplified, low self-noise is critical\n\nTS (Instrument) levels are moderate, (-30dbU to -10dbU) and have high impedance (Hi-Z, ~1Mohm)\ntherefore, their gain stages require moderate preamp. (+10dB to +30dB of gain)\ntransients are a concern, as well as EMI/RFI pickup over longer cable distances\n\nTS (Line) levels are high, (-10dbV / ~-7.78dBu), and have medium impedances (10k to 40k). \ntherefore, their gain stages require little to no preamp."
 		(exclude_from_sim no)
-		(at 24.892 41.91 0)
+		(at 27.432 40.64 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -22,9 +625,42 @@
 		)
 		(uuid "953d3e6a-ce9f-4f47-8bef-17c83389af27")
 	)
+	(hierarchical_label "PGA_SDI"
+		(shape input)
+		(at 111.76 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "191ad123-e512-4f7c-9f3c-aa68769102a0")
+	)
+	(hierarchical_label "PGA_CS_1"
+		(shape input)
+		(at 167.64 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28a0cefb-e443-4b67-9624-d4b4c38f0275")
+	)
+	(hierarchical_label "PGA_SCLK"
+		(shape input)
+		(at 111.76 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59943b36-3375-4485-9ec1-10d5d01d0f02")
+	)
 	(hierarchical_label "GAIN_IN-_1"
 		(shape input)
-		(at 68.58 60.96 270)
+		(at 71.12 59.69 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37,7 +673,7 @@
 	)
 	(hierarchical_label "GAIN_IN+_0"
 		(shape input)
-		(at 36.83 60.96 270)
+		(at 39.37 59.69 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48,9 +684,53 @@
 		)
 		(uuid "64104cd7-5226-4c69-91fa-f176f358065d")
 	)
+	(hierarchical_label "PGA_CS_0"
+		(shape input)
+		(at 111.76 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6aa45281-5da6-4d0e-9d57-4b74157aa895")
+	)
+	(hierarchical_label "PGA_SDO"
+		(shape input)
+		(at 167.64 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d6bba50-e09d-47cb-9ecc-efdfa9da7e8b")
+	)
+	(hierarchical_label "PGA_SDO"
+		(shape input)
+		(at 111.76 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85dd6701-8fb2-4256-9d35-db42ca228ea4")
+	)
+	(hierarchical_label "PGA_SDI"
+		(shape input)
+		(at 167.64 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96e43429-518c-42c0-a808-269ec674348b")
+	)
 	(hierarchical_label "GAIN_IN-_0"
 		(shape input)
-		(at 46.99 60.96 270)
+		(at 49.53 59.69 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,9 +741,20 @@
 		)
 		(uuid "bcc0438d-cc93-4c23-b7b5-1ae96efd11be")
 	)
+	(hierarchical_label "PGA_SCLK"
+		(shape input)
+		(at 167.64 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c780f0f6-1191-4de2-8866-fa9e50492d5b")
+	)
 	(hierarchical_label "GAIN_IN+_1"
 		(shape input)
-		(at 58.42 60.96 270)
+		(at 60.96 59.69 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73,5 +764,321 @@
 			(justify right)
 		)
 		(uuid "dce07b66-7e47-4d94-9474-ba6c1677e71d")
+	)
+	(symbol
+		(lib_id "Audio:PGA2500")
+		(at 180.34 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08605bf1-fd7f-4184-b341-8196ee314c75")
+		(property "Reference" "U12"
+			(at 180.34 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGA2500"
+			(at 180.34 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+			(at 180.594 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pga2500.pdf"
+			(at 180.34 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Digitally Controlled Microphone Preamplifier"
+			(at 180.34 120.396 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "4c6e8f34-9be0-45a3-90f0-7850a4284b09")
+		)
+		(pin "18"
+			(uuid "4ff7445e-81fd-413d-8049-aada318c6162")
+		)
+		(pin "17"
+			(uuid "4cc04474-5556-43e0-b219-a5ffd827d199")
+		)
+		(pin "15"
+			(uuid "bee1f741-4b1b-4338-9f92-09600cdf0971")
+		)
+		(pin "19"
+			(uuid "517dde66-47a0-44ea-accd-052faea51415")
+		)
+		(pin "21"
+			(uuid "9d536671-d5a3-4c91-9fed-f572a21a353d")
+		)
+		(pin "20"
+			(uuid "79286e8e-9d69-43b4-9ffa-a159e9eea77f")
+		)
+		(pin "27"
+			(uuid "8c377909-6744-4545-a80b-95aafbf96f01")
+		)
+		(pin "23"
+			(uuid "400510ae-2b49-4adc-a0cf-df765633b247")
+		)
+		(pin "26"
+			(uuid "e2baacc4-92b0-431b-9536-762c8fbaf343")
+		)
+		(pin "25"
+			(uuid "f1cfe72a-a078-4bf5-ad3d-d8c59b342aac")
+		)
+		(pin "24"
+			(uuid "7727816f-d68c-4bac-988c-041c7bf37fea")
+		)
+		(pin "22"
+			(uuid "8d1fa6f0-8647-4c78-a0ef-3096c1e3a830")
+		)
+		(pin "28"
+			(uuid "84682439-b40c-4c06-9a94-02650fc3ccc2")
+		)
+		(pin "9"
+			(uuid "99e87d69-8d3d-4c41-987a-30eaeef1b011")
+		)
+		(pin "2"
+			(uuid "b6609fae-683f-48cd-afa1-21aece627812")
+		)
+		(pin "6"
+			(uuid "adeaecd1-8ec3-4de9-b1fe-ba3f93a2144a")
+		)
+		(pin "3"
+			(uuid "980a71a5-3a05-4e7e-ab45-a278bb83773a")
+		)
+		(pin "4"
+			(uuid "8ac6879f-cb09-4743-9209-7e14cb886fe5")
+		)
+		(pin "5"
+			(uuid "01d19115-d978-4b5d-bc96-56685255b6d0")
+		)
+		(pin "1"
+			(uuid "879eee63-f73a-49a1-9069-35659a3f901c")
+		)
+		(pin "12"
+			(uuid "584b7400-ad95-496b-bdd1-a38de082d40c")
+		)
+		(pin "10"
+			(uuid "deed418e-9014-4000-b18a-673bad4540b0")
+		)
+		(pin "11"
+			(uuid "befd8327-d0cc-4812-9aaf-1a9b2514a366")
+		)
+		(pin "8"
+			(uuid "4488a4d2-e487-484c-a002-4e617affd0c1")
+		)
+		(pin "7"
+			(uuid "74bca6f7-8b8f-4f09-ba68-a849eb94a45b")
+		)
+		(pin "13"
+			(uuid "ccac527a-57a8-421e-8df0-b3642ed785d0")
+		)
+		(pin "14"
+			(uuid "ea6c2026-e7a7-44b1-a21c-66c864690cd5")
+		)
+		(instances
+			(project "vireo-lite"
+				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio:PGA2500")
+		(at 124.46 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cb3efc2-d761-4446-95c6-f873dd598787")
+		(property "Reference" "U11"
+			(at 124.46 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGA2500"
+			(at 124.46 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+			(at 124.714 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pga2500.pdf"
+			(at 124.46 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Digitally Controlled Microphone Preamplifier"
+			(at 124.46 120.396 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "c8b28680-707e-4296-a7af-9818abd2cecf")
+		)
+		(pin "18"
+			(uuid "082a9d05-fc7f-42f7-988e-95e0855bd9dd")
+		)
+		(pin "17"
+			(uuid "e7226059-cbf0-4403-9393-abb0c3fbb888")
+		)
+		(pin "15"
+			(uuid "b82da0e7-c423-4859-8209-fc31b5b5b41f")
+		)
+		(pin "19"
+			(uuid "a96747e6-8cfa-45fa-9b25-98671dbb6588")
+		)
+		(pin "21"
+			(uuid "c9f392b8-2313-41b6-91f7-0a4b81dd2486")
+		)
+		(pin "20"
+			(uuid "4f4e1acc-78a8-4f09-813b-b3a79ef2d929")
+		)
+		(pin "27"
+			(uuid "fd411699-831b-4756-93db-b8f6a9146a0f")
+		)
+		(pin "23"
+			(uuid "a75c03c1-3b8e-43d3-9da7-f06b02424a56")
+		)
+		(pin "26"
+			(uuid "1b4292ae-72f0-44c5-9dfe-678e1045d43c")
+		)
+		(pin "25"
+			(uuid "72b49b7e-f3dd-4b0c-9786-ade093b38db3")
+		)
+		(pin "24"
+			(uuid "7b21359c-0604-4d00-9fd3-7ebbbfd04e15")
+		)
+		(pin "22"
+			(uuid "b13eb26c-bbf4-451f-9128-679e652e9c7c")
+		)
+		(pin "28"
+			(uuid "2911a10b-475c-4864-920e-7025557ea6f4")
+		)
+		(pin "9"
+			(uuid "7598182f-e347-4f64-9d05-216ebfef31a0")
+		)
+		(pin "2"
+			(uuid "2d6fbbd9-aae5-4705-9cd0-623d8e130a55")
+		)
+		(pin "6"
+			(uuid "f2bdf75c-14c4-4017-9e3c-3540f8ad49e8")
+		)
+		(pin "3"
+			(uuid "aee76bd7-4e08-41b9-be73-8e4f745d2d59")
+		)
+		(pin "4"
+			(uuid "abfbdbce-e9a5-4d5b-802b-e2edf00f41ab")
+		)
+		(pin "5"
+			(uuid "2f07876e-cd2b-4718-a676-ac55bd46686a")
+		)
+		(pin "1"
+			(uuid "f21ed0be-86d6-46a9-b810-919fecf82982")
+		)
+		(pin "12"
+			(uuid "1d094019-120d-4087-b0a3-2a3dc6f7e247")
+		)
+		(pin "10"
+			(uuid "731f0a78-21f7-4370-a541-0bb3915f60ca")
+		)
+		(pin "11"
+			(uuid "5734bbc5-1986-4492-919d-f008b0d3e32b")
+		)
+		(pin "8"
+			(uuid "c9d663db-fa63-4379-963d-62eb66e1beb1")
+		)
+		(pin "7"
+			(uuid "ceec2c58-27bd-4d80-a5cb-5ecd87141310")
+		)
+		(pin "13"
+			(uuid "7d9a3236-1bfc-4852-b127-701a9c7b2056")
+		)
+		(pin "14"
+			(uuid "88a17973-3e90-4d30-8951-c7595efd9113")
+		)
+		(instances
+			(project "vireo-lite"
+				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
