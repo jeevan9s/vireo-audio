@@ -5846,16 +5846,27 @@
 		)
 		(uuid "0413a053-438d-424a-a18c-5c3af0b3292e")
 	)
-	(hierarchical_label "48V_INJEC0"
+	(hierarchical_label "PGA_CS_1"
 		(shape input)
-		(at 292.1 69.85 90)
+		(at 297.18 60.96 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2ea3c5c1-c179-4876-88b1-7ff4a66e4d7b")
+		(uuid "04504bdc-6088-4774-b677-10a6e61730e8")
+	)
+	(hierarchical_label "PGA_SDO"
+		(shape input)
+		(at 302.26 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13e90ddd-a6ea-4a2e-9126-28407da794c1")
 	)
 	(hierarchical_label "USB_N"
 		(shape input)
@@ -5945,16 +5956,49 @@
 		)
 		(uuid "a6df67f6-611b-4bc8-9dce-01824849f079")
 	)
-	(hierarchical_label "HIZ_FET_GATE1"
+	(hierarchical_label "PGA_SDI"
 		(shape input)
-		(at 297.18 69.85 90)
+		(at 294.64 60.96 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "c095f8a9-b0ab-44d3-9f52-fa7187f49793")
+		(uuid "b3b20b7f-3cdc-4476-8c73-8ee557b81a49")
+	)
+	(hierarchical_label "PGA_OVR_0"
+		(shape input)
+		(at 308.61 59.69 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6768a72-519d-46fb-820e-44e53ab2f76b")
+	)
+	(hierarchical_label "PGA_SCLK"
+		(shape input)
+		(at 299.72 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7be06e7-56c2-4b8e-9363-500ef760eddc")
+	)
+	(hierarchical_label "PGA_OVR_1"
+		(shape input)
+		(at 312.42 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c838f552-46d4-4b23-8eee-435f77bcb3f3")
 	)
 	(hierarchical_label "USB_P"
 		(shape input)
@@ -5967,27 +6011,16 @@
 		)
 		(uuid "ca33ee82-9fe7-4266-87cb-bd66f31aa378")
 	)
-	(hierarchical_label "48V_INJEC1"
+	(hierarchical_label "PGA_CS_0"
 		(shape input)
-		(at 289.56 69.85 90)
+		(at 290.83 59.69 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "d030834a-c56d-4efc-9c43-d10cd81313d1")
-	)
-	(hierarchical_label "HIZ_FET_GATE0"
-		(shape input)
-		(at 299.72 69.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbe0d3d8-607b-4d6a-9cc7-4f56f7288f5a")
+		(uuid "decb33af-ef10-460b-9b6d-f0db624e2a9d")
 	)
 	(hierarchical_label "PB9_GPIO"
 		(shape input)

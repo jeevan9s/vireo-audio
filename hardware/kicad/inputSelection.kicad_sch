@@ -3353,6 +3353,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 161.29) (xy 337.82 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0373ffea-98bb-40aa-a549-8ff566f3e6d1")
+	)
+	(wire
+		(pts
 			(xy 185.42 129.54) (xy 180.34 129.54)
 		)
 		(stroke
@@ -3793,16 +3803,6 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 161.29) (xy 337.82 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936f8a53-812f-413b-a9b8-ba2f0132ebc5")
-	)
-	(wire
-		(pts
 			(xy 298.45 106.68) (xy 298.45 102.87)
 		)
 		(stroke
@@ -4033,6 +4033,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 92.71) (xy 311.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd76932f-e67e-4af0-8a83-2bb284d6a58c")
+	)
+	(wire
+		(pts
 			(xy 288.29 77.47) (xy 300.99 77.47)
 		)
 		(stroke
@@ -4043,7 +4053,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 92.71) (xy 336.55 92.71)
+			(xy 339.09 92.71) (xy 336.55 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4113,16 +4123,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 92.71) (xy 311.15 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9bf0793-4b47-42d3-bdb9-b90da8a3bb3e")
-	)
-	(wire
-		(pts
 			(xy 318.77 92.71) (xy 318.77 99.06)
 		)
 		(stroke
@@ -4167,8 +4167,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify right)
 		)
@@ -4290,8 +4289,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify right)
 		)
@@ -4303,8 +4301,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify right)
 		)
@@ -4360,8 +4357,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify right)
 		)
@@ -4465,6 +4461,84 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 340.36 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "044409e9-83c2-4f23-a5f4-efd7a63765ef")
+		(property "Reference" "#PWR070"
+			(at 340.36 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 340.36 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "763cb6dd-b04e-42ab-a305-6207927a00ae")
+		)
+		(instances
+			(project "vireo-lite"
+				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -5798,84 +5872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 307.34 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "462489a9-fde6-4f56-a77c-dd04054f30d8")
-		(property "Reference" "#PWR0109"
-			(at 307.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 305.054 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "210a9eb5-6c33-4db2-8c70-2e2d0c563849")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 273.05 144.78 0)
 		(unit 1)
@@ -6121,7 +6117,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 340.36 92.71 0)
+		(at 308.61 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6129,9 +6125,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5126cd5a-57e5-4db6-a4e1-10eb2707d8b1")
-		(property "Reference" "#PWR0108"
-			(at 340.36 99.06 0)
+		(fields_autoplaced yes)
+		(uuid "53ca4066-40cf-480f-a7c1-1cc8fad9dd93")
+		(property "Reference" "#PWR075"
+			(at 308.61 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6141,19 +6138,18 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 338.074 96.52 0)
+		(property "Value" "GND"
+			(at 308.61 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 92.71 0)
+			(at 308.61 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6164,7 +6160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 92.71 0)
+			(at 308.61 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6175,7 +6171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 340.36 92.71 0)
+			(at 308.61 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,12 +6182,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c9d62f6-31f5-4031-897a-92d667165187")
+			(uuid "83c9a2a8-4231-4f8e-9807-ba03470ce990")
 		)
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
-					(reference "#PWR0108")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -6692,84 +6688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 341.63 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6710dc88-2007-4a27-b819-27469f5cd85e")
-		(property "Reference" "#PWR0107"
-			(at 341.63 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 339.344 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 341.63 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f200320-43e1-449b-afb3-a8c46c2f5a2e")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BAV99S")
 		(at 312.42 179.07 90)
 		(unit 2)
@@ -7016,6 +6934,162 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
 					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 308.61 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77d47964-6cae-4787-9de0-ae6228670768")
+		(property "Reference" "#PWR041"
+			(at 308.61 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 308.61 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "330a357d-797e-4d60-88c0-8f74dd528a2f")
+		)
+		(instances
+			(project "vireo-lite"
+				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 332.74 143.51 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78fd45e0-c60d-4873-9e0e-82c06457d8fa")
+		(property "Reference" "#PWR081"
+			(at 332.74 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 332.74 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 332.74 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "395bc256-656f-4042-a092-9dd4a11f2a43")
+		)
+		(instances
+			(project "vireo-lite"
+				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -8158,6 +8232,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 331.47 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97198df6-2c74-449c-a55c-67d68f183e3e")
+		(property "Reference" "#PWR034"
+			(at 331.47 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 331.47 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be0fc086-abf4-49ec-869a-93fb66dedd11")
+		)
+		(instances
+			(project "vireo-lite"
+				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.07 110.49 0)
 		(unit 1)
@@ -8397,84 +8549,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 308.61 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a5e6b1dc-eeca-4103-8e8b-08c6c8acec0f")
-		(property "Reference" "#PWR0106"
-			(at 308.61 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 306.324 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "408f7b10-51e8-4382-8d59-25bef868d033")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 170.18 154.94 0)
 		(unit 1)
 		(body_style 1)
@@ -8546,84 +8620,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 332.74 143.51 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8a2d732-766a-4ce0-b113-d11dd4e3f02f")
-		(property "Reference" "#PWR035"
-			(at 332.74 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 332.74 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 332.74 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3fdf7eef-f8f1-4e08-bca0-a0abb68bd1b9")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10042,6 +10038,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 339.09 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5b2d23c-705f-4ddd-9ed6-3d17cd0e1fe2")
+		(property "Reference" "#PWR035"
+			(at 339.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 339.09 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 339.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20cc9c78-30b3-4414-9707-bb34355ed3fd")
+		)
+		(instances
+			(project "vireo-lite"
+				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5VA")
 		(at 336.55 102.87 270)
 		(unit 1)
@@ -10530,84 +10604,6 @@
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 331.47 73.66 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9143265-6fcf-4edc-b038-c861e5d74742")
-		(property "Reference" "#PWR034"
-			(at 331.47 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 331.47 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 331.47 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.47 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 331.47 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7fe919e1-6edd-4208-a066-3d9bd6c4b48b")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/1beed159-1587-4a68-8213-06287a1dd2c9"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)

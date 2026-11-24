@@ -7,7 +7,7 @@
 	(title_block
 		(title "Flash/Debug Interface")
 		(company "Jeevan Sanchez")
-		(comment 1 "Vireo Lite")
+		(comment 1 "Vireo ")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
