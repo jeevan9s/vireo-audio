@@ -2233,10 +2233,6 @@
 		(uuid "fc45cf69-0eeb-4ac6-a9b1-f17c6047eed9")
 	)
 	(no_connect
-		(at 102.87 85.09)
-		(uuid "0b40a97b-38c1-4e07-8269-380c5efa57ef")
-	)
-	(no_connect
 		(at 227.33 87.63)
 		(uuid "27b366d2-c13a-40a0-87a5-49959f85d307")
 	)
@@ -3274,6 +3270,17 @@
 			(justify right)
 		)
 		(uuid "344ff2d6-c697-4b3a-8b8a-3c4b45c8cb1b")
+	)
+	(hierarchical_label "~{HPF_ENABLE}"
+		(shape input)
+		(at 102.87 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "440f8d78-014d-4261-a6ea-4a12835880ef")
 	)
 	(hierarchical_label "GAIN_OUT-_0"
 		(shape input)

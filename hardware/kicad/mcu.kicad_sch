@@ -5868,6 +5868,39 @@
 		)
 		(uuid "13e90ddd-a6ea-4a2e-9126-28407da794c1")
 	)
+	(hierarchical_label "SAI_SDOUT"
+		(shape input)
+		(at 356.87 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34c52f1e-5f9f-44dc-9793-3ef8b1183a71")
+	)
+	(hierarchical_label "~{ADC_RST}"
+		(shape input)
+		(at 321.31 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3844b6e5-3277-43ac-a243-f704587b0a55")
+	)
+	(hierarchical_label "ADC_M0"
+		(shape input)
+		(at 312.42 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f963361-6c9b-42d4-bb0a-063f1aa1702c")
+	)
 	(hierarchical_label "USB_N"
 		(shape input)
 		(at 241.3 115.57 0)
@@ -5890,6 +5923,17 @@
 		)
 		(uuid "54622c81-b017-456a-a2b1-99757d548125")
 	)
+	(hierarchical_label "ADC_OVFL_DETECT"
+		(shape input)
+		(at 307.34 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d80045a-1bbe-44e4-afbd-c9ca0b0f7865")
+	)
 	(hierarchical_label "SWDCLK"
 		(shape input)
 		(at 241.3 123.19 0)
@@ -5911,6 +5955,28 @@
 			(justify left)
 		)
 		(uuid "6ccd5146-8f54-406f-a960-1c31a8bbec89")
+	)
+	(hierarchical_label "ADC_M1"
+		(shape input)
+		(at 312.42 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91dc0264-6ccd-40a0-ad54-78f0c67efc6e")
+	)
+	(hierarchical_label "SAI_MCLK"
+		(shape input)
+		(at 356.87 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94c63ed6-452e-475c-ba8c-8815e6cadfe5")
 	)
 	(hierarchical_label "SWDIO"
 		(shape input)
@@ -6010,6 +6076,28 @@
 			(justify left)
 		)
 		(uuid "ca33ee82-9fe7-4266-87cb-bd66f31aa378")
+	)
+	(hierarchical_label "SAI_LRCK"
+		(shape input)
+		(at 356.87 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d05386a4-f9ce-4157-8a66-881fc4e03a6e")
+	)
+	(hierarchical_label "SAI_SCLK"
+		(shape input)
+		(at 356.87 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d80899d3-3394-4bb4-9873-d558061e75a3")
 	)
 	(hierarchical_label "PGA_CS_0"
 		(shape input)
