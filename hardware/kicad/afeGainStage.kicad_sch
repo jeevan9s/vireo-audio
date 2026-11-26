@@ -3506,7 +3506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00e13d4e-a20e-4ee2-a417-0f6244290362")
-		(property "Reference" "R84"
+		(property "Reference" "R110"
 			(at 73.66 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3568,7 +3568,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "R84")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -3585,7 +3585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03bce7bc-0d66-493e-b787-3d7859be730c")
-		(property "Reference" "C83"
+		(property "Reference" "C108"
 			(at 62.23 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3649,7 +3649,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C83")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -3667,7 +3667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03cad089-42a7-4679-a5a7-3d1b0384e7c6")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0126"
 			(at 236.22 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3727,7 +3727,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR0120")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -3745,7 +3745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07069be5-1dcc-4028-8fe8-4e295d2ea11d")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0121"
 			(at 198.12 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3806,7 +3806,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR0114")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -3823,7 +3823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0afcfafa-0184-4db3-8006-8b9a0c399ff2")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0116"
 			(at 71.12 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3883,7 +3883,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR098")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -3900,7 +3900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e3f74d3-0014-42b7-9c30-0a170d9752f8")
-		(property "Reference" "C72"
+		(property "Reference" "C106"
 			(at 60.452 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3964,7 +3964,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C72")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -3981,7 +3981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f408999-e090-4144-9301-682bd348742f")
-		(property "Reference" "R79"
+		(property "Reference" "R111"
 			(at 112.522 87.884 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4045,7 +4045,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "R79")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -4062,7 +4062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "121cac35-4cd7-4b88-98c0-963a869eccca")
-		(property "Reference" "C90"
+		(property "Reference" "C118"
 			(at 184.912 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4126,7 +4126,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C90")
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -4143,7 +4143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1271c957-3824-4b7c-822b-0668981679fb")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0119"
 			(at 115.57 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4203,7 +4203,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR097")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -4221,7 +4221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14551e60-2108-4649-8632-284f1c91b0c6")
-		(property "Reference" "C96"
+		(property "Reference" "C124"
 			(at 234.95 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,7 +4285,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C96")
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -4303,7 +4303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18678da4-0e88-40e4-946d-821f53a04739")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0122"
 			(at 200.66 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4363,7 +4363,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR0115")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -4380,7 +4380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "190e6eb8-98ba-4d4d-a201-b124058de806")
-		(property "Reference" "C85"
+		(property "Reference" "C113"
 			(at 121.158 112.776 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4444,7 +4444,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C85")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -4461,7 +4461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "192dfe68-5922-4c64-96f5-5e8de2d9d1ca")
-		(property "Reference" "C91"
+		(property "Reference" "C119"
 			(at 186.944 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4525,7 +4525,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C91")
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -4542,7 +4542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "232dbbdd-e65c-459e-ba36-68049a65990f")
-		(property "Reference" "R96"
+		(property "Reference" "R114"
 			(at 236.982 87.884 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4606,7 +4606,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "R96")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -4623,7 +4623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39bd0b26-57bb-4426-9c65-e5943ff882dd")
-		(property "Reference" "C84"
+		(property "Reference" "C109"
 			(at 64.262 121.158 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,7 +4685,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C84")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -4702,7 +4702,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a9563ee-2580-42b4-a508-9b89a7a6e1eb")
-		(property "Reference" "C88"
+		(property "Reference" "C116"
 			(at 156.718 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,7 +4766,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C88")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -4784,7 +4784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "521e5f9d-a77a-4f05-a28e-21ec6a3ab1f5")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0114"
 			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4845,7 +4845,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR071")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -4862,7 +4862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56b588c5-4e3f-4daa-8c5d-3b8ee03e1e49")
-		(property "Reference" "C99"
+		(property "Reference" "C127"
 			(at 247.65 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4924,7 +4924,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C99")
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -4941,7 +4941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59445f9a-c1c3-4766-91ec-be782985e0bb")
-		(property "Reference" "R95"
+		(property "Reference" "R113"
 			(at 198.12 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5003,7 +5003,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "R95")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -5020,7 +5020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e529842-3a78-43d5-b6b3-cd5253040c05")
-		(property "Reference" "R101"
+		(property "Reference" "R115"
 			(at 244.602 87.884 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5084,7 +5084,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "R101")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -5101,7 +5101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6497aa8f-be10-45a2-826a-5d20fd0e4aa3")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0123"
 			(at 195.58 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5161,7 +5161,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR0116")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -5178,7 +5178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73af0621-39d5-4de6-8055-b0a8365dc30e")
-		(property "Reference" "C92"
+		(property "Reference" "C120"
 			(at 186.69 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5242,7 +5242,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C92")
+					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -5259,7 +5259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eaad420-8fa8-4c41-8caf-42d7dad56f76")
-		(property "Reference" "R81"
+		(property "Reference" "R112"
 			(at 120.142 87.884 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5323,7 +5323,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "R81")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -5340,7 +5340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8046623e-dd8a-4329-8609-ae88bf1cd000")
-		(property "Reference" "C94"
+		(property "Reference" "C122"
 			(at 218.948 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5404,7 +5404,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C94")
+					(reference "C122")
 					(unit 1)
 				)
 			)
@@ -5421,7 +5421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81dbeb74-549b-4888-9ae2-14224d6d68fa")
-		(property "Reference" "C79"
+		(property "Reference" "C110"
 			(at 94.488 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5485,7 +5485,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C79")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -5503,7 +5503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cb3efc2-d761-4446-95c6-f873dd598787")
-		(property "Reference" "U11"
+		(property "Reference" "U15"
 			(at 90.17 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +5643,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "U11")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -5661,7 +5661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e7cc5f8-2b4f-489d-b810-53f908fe1ac4")
-		(property "Reference" "C95"
+		(property "Reference" "C123"
 			(at 234.95 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5725,7 +5725,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C95")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -5742,7 +5742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0de2bae-fb47-4f49-9bce-99d8cb73b872")
-		(property "Reference" "C80"
+		(property "Reference" "C104"
 			(at 32.258 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5806,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C80")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -5823,7 +5823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4a691c9-b912-43a3-ace4-cb12a6b77e1f")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0125"
 			(at 223.52 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5884,7 +5884,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR0119")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -5902,7 +5902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6d000cb-7df2-410e-b576-51eea7ef8ac7")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0115"
 			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5963,7 +5963,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR0104")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -5980,7 +5980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6efbccc-709b-4cf4-91d1-43547ffe0d71")
-		(property "Reference" "C93"
+		(property "Reference" "C121"
 			(at 188.722 121.158 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6042,7 +6042,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C93")
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -6060,7 +6060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6f522a1-9156-43b6-9665-b78646d233b5")
-		(property "Reference" "C71"
+		(property "Reference" "C112"
 			(at 110.49 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6124,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C71")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -6141,7 +6141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a87818ae-15a4-48d5-959a-5322a1cd7847")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0118"
 			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6202,7 +6202,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR0112")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -6219,7 +6219,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afc0b2fc-db08-428c-a00c-42c05db81ab8")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0113"
 			(at 60.96 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6280,7 +6280,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR087")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -6298,7 +6298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4ca9523-598a-43c2-ab29-7584b010e7d0")
-		(property "Reference" "U12"
+		(property "Reference" "U16"
 			(at 214.63 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6438,7 +6438,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "U12")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -6455,7 +6455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5459a84-624c-4580-9da3-102aeb13a63a")
-		(property "Reference" "C89"
+		(property "Reference" "C117"
 			(at 156.464 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6519,7 +6519,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C89")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -6537,7 +6537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c564b9a9-7eff-40e4-9076-2013115f50fb")
-		(property "Reference" "C57"
+		(property "Reference" "C111"
 			(at 110.49 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6601,7 +6601,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C57")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -6618,7 +6618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbdc798e-ecf0-46cc-91d0-0fa2b97c9e18")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0124"
 			(at 217.1592 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6678,7 +6678,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR0117")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -6695,7 +6695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd742267-ea50-4c03-8119-e83e631fd598")
-		(property "Reference" "C87"
+		(property "Reference" "C115"
 			(at 122.936 122.682 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6757,7 +6757,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C87")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -6774,7 +6774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d73d1f94-34e2-4e50-962d-8e20b9700fc3")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0120"
 			(at 185.42 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6835,7 +6835,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR0113")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -6852,7 +6852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e455126f-89c2-40ed-b1e4-b91a38b3ca57")
-		(property "Reference" "C86"
+		(property "Reference" "C114"
 			(at 120.904 117.856 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6916,7 +6916,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C86")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -6933,7 +6933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e96c1022-0c23-4128-add2-0e7ffbeb97e4")
-		(property "Reference" "C81"
+		(property "Reference" "C105"
 			(at 32.004 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6997,7 +6997,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C81")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -7014,7 +7014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea1bf98c-a285-4e8a-874a-b4793f815212")
-		(property "Reference" "C82"
+		(property "Reference" "C107"
 			(at 62.484 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7078,7 +7078,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C82")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -7095,7 +7095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4f74fba-7a80-4778-88e0-5d554c1d680f")
-		(property "Reference" "C97"
+		(property "Reference" "C125"
 			(at 245.872 110.998 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7159,7 +7159,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C97")
+					(reference "C125")
 					(unit 1)
 				)
 			)
@@ -7176,7 +7176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd020b20-3574-4fdb-8ccb-62409ffea2ad")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0117"
 			(at 92.71 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7236,7 +7236,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "#PWR090")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -7253,7 +7253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdca69b6-083d-4d31-ac08-ec0061600d98")
-		(property "Reference" "C98"
+		(property "Reference" "C126"
 			(at 245.618 116.078 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7317,7 +7317,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/468b2893-98ad-49e7-ac74-e1914a5a629b"
-					(reference "C98")
+					(reference "C126")
 					(unit 1)
 				)
 			)

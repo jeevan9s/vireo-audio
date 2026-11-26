@@ -1407,6 +1407,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 22.86 35.56)
+		(end 279.4 129.54)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7a00e6be-1505-49c6-8d2e-10c7ed02fce4")
+	)
 	(text "Attn_factor = 0.5 = Rshunt = Rshunt / 2Rseries + Rshunt\n6.0dB attentuation pad (0.5x)(20log(0.5) = 6)\n\nRshunt = 2k, Rseries = 1k\n\nfc = 1/(2pi+R*C)\nR = Rseries + 1/2(Rshunt)\nR= 1k + 1k = 2k\n\n2 < fc < 5 (Hz)\nfc = 1/(2pi * 2000 * 22u) =~ 3.62Hz (HP cutoff)\n\n---\n\n50 < fc < 100 kHz \n\nfc = 1/(2pi+R*C)\nR = (2R) || (2R)\nR= 1k\n\nC= 2.7nF (as per datasheet)\n\n2 < fc < 5 (Hz)\nfc = 1/(2pi * 1000 * 2.7n) =~ 60kHz (LP cutoff)\n\n"
 		(exclude_from_sim no)
 		(at 21.082 164.846 0)
@@ -1421,7 +1434,7 @@
 	)
 	(text "left/right word clock\n"
 		(exclude_from_sim no)
-		(at 130.81 100.33 0)
+		(at 134.62 100.33 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1433,7 +1446,7 @@
 	)
 	(text "bit clock"
 		(exclude_from_sim no)
-		(at 128.27 92.964 0)
+		(at 132.08 92.964 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1443,9 +1456,22 @@
 		)
 		(uuid "8c25616e-2be1-4c59-b678-0ae09f810e57")
 	)
+	(text "PCM4202 ADC (PCM, I2S/SAI)"
+		(exclude_from_sim no)
+		(at 37.084 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f78a3649-1f17-43b5-bd8c-2c98beff17b6")
+	)
 	(text "system clock"
 		(exclude_from_sim no)
-		(at 134.366 76.708 0)
+		(at 138.176 76.708 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1456,242 +1482,242 @@
 		(uuid "ff835cb0-51ac-45db-bdf9-7fcdf2f96e0d")
 	)
 	(junction
-		(at 257.81 83.82)
+		(at 261.62 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08f67b1f-e35b-4aab-92cc-4c3d120e5bf3")
 	)
 	(junction
-		(at 68.58 77.47)
+		(at 72.39 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d566d08-d787-4f50-9b52-ed93f678f878")
 	)
 	(junction
-		(at 127 63.5)
+		(at 130.81 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0dd1ca69-abc2-4896-be20-aabd47897f6e")
 	)
 	(junction
-		(at 240.03 121.92)
+		(at 243.84 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11222087-e9e6-4047-bfe5-d17cdad6cc6a")
 	)
 	(junction
-		(at 127 54.61)
+		(at 130.81 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18c18dd0-de21-46fe-9c50-6c53d398c65f")
 	)
 	(junction
-		(at 179.07 121.92)
+		(at 182.88 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b350e28-fad2-4891-8d51-4bd694bfff3a")
 	)
 	(junction
-		(at 181.61 67.31)
+		(at 185.42 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26aad884-7fab-4b48-87e5-c5afa7f2f8bf")
 	)
 	(junction
-		(at 240.03 83.82)
+		(at 243.84 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cdd158c-d977-4eed-97e7-2fb2326fe86a")
 	)
 	(junction
-		(at 99.06 68.58)
+		(at 102.87 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3169f0c3-923a-47c4-a89a-323cf2c3f153")
 	)
 	(junction
-		(at 179.07 110.49)
+		(at 182.88 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d856922-5375-4abc-8eaf-2140719a41e3")
 	)
 	(junction
-		(at 107.95 68.58)
+		(at 111.76 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46ea55e9-0954-42bc-a4a2-244c3023127f")
 	)
 	(junction
-		(at 179.07 107.95)
+		(at 182.88 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56e2bc9d-4a61-45d0-955b-2657bef1798e")
 	)
 	(junction
-		(at 68.58 116.84)
+		(at 72.39 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59f5fcd7-85fe-4400-85b0-d108b78286c3")
 	)
 	(junction
-		(at 214.63 67.31)
+		(at 218.44 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60301c03-a0eb-4e8e-98ab-24f1f03a7d90")
 	)
 	(junction
-		(at 189.23 73.66)
+		(at 193.04 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67193d10-d2f1-48be-a6df-c379b7be8a93")
 	)
 	(junction
-		(at 240.03 77.47)
+		(at 243.84 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "743bcc63-2aa9-46e5-9ecd-f4397db25227")
 	)
 	(junction
-		(at 222.25 73.66)
+		(at 226.06 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "774aee20-1579-4062-ab88-623eca095c5c")
 	)
 	(junction
-		(at 80.01 90.17)
+		(at 83.82 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "806e1422-87c3-4431-a3a3-cfbab4c457ad")
 	)
 	(junction
-		(at 107.95 60.96)
+		(at 111.76 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a03bc699-87eb-4832-9893-82f501f035ba")
 	)
 	(junction
-		(at 257.81 77.47)
+		(at 261.62 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a290790c-4e8d-4417-b0aa-8a09a63116bd")
 	)
 	(junction
-		(at 68.58 104.14)
+		(at 72.39 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a313456e-6185-4bed-8a3f-dcf49a20444b")
 	)
 	(junction
-		(at 250.19 77.47)
+		(at 254 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7cb8e70-edc9-4c7b-983e-001ef4ed222c")
 	)
 	(junction
-		(at 205.74 73.66)
+		(at 209.55 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdf334f5-1b10-4ae1-a16e-4752a8072197")
 	)
 	(junction
-		(at 198.12 67.31)
+		(at 201.93 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0f13a6f-1850-4425-a4fb-676269566261")
 	)
 	(junction
-		(at 189.23 121.92)
+		(at 193.04 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2f93816-40de-4e08-9690-6a501e556328")
 	)
 	(junction
-		(at 222.25 121.92)
+		(at 226.06 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7bb7dc5-246c-4099-a5ba-3abbf7ed48ef")
 	)
 	(junction
-		(at 123.19 63.5)
+		(at 127 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca00e693-7558-4c28-8e03-0d6007c5480d")
 	)
 	(junction
-		(at 123.19 121.92)
+		(at 127 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d09560c3-9564-40b3-9f5c-cd8fab979757")
 	)
 	(junction
-		(at 114.3 121.92)
+		(at 118.11 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1843a41-ffa9-4387-a297-1847eea0f1aa")
 	)
 	(junction
-		(at 80.01 116.84)
+		(at 83.82 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d69e134d-c8d0-404e-80da-da2dc2756d2c")
 	)
 	(junction
-		(at 80.01 77.47)
+		(at 83.82 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da461725-9a3f-4032-97e8-d0bc4e8b28ee")
 	)
 	(junction
-		(at 68.58 90.17)
+		(at 72.39 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de0cf792-a537-4e28-97f3-31c45244017e")
 	)
 	(junction
-		(at 127 106.68)
+		(at 130.81 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e023b8f7-41b2-484a-ae37-a7cf259ee31a")
 	)
 	(junction
-		(at 179.07 105.41)
+		(at 182.88 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5502051-d359-4b39-af3c-9ee60bcd8200")
 	)
 	(junction
-		(at 123.19 53.34)
+		(at 127 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb117ba4-1e72-451e-8d98-d8220fc5cc27")
 	)
 	(junction
-		(at 232.41 77.47)
+		(at 236.22 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3d45591-29c7-4483-b721-6bca7054ce01")
 	)
 	(junction
-		(at 205.74 121.92)
+		(at 209.55 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7462b0b-1ed0-4632-91c0-9b5fcf291c06")
 	)
 	(junction
-		(at 80.01 104.14)
+		(at 83.82 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa89ab48-3615-46b9-8f3b-01221eaee946")
 	)
 	(junction
-		(at 99.06 85.09)
+		(at 102.87 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc5e7fb2-12ad-4a96-bd04-f469a9a999d2")
 	)
 	(wire
 		(pts
-			(xy 189.23 73.66) (xy 189.23 121.92)
+			(xy 193.04 73.66) (xy 193.04 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1701,7 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 63.5 116.84)
+			(xy 72.39 116.84) (xy 67.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1711,7 +1737,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 77.47) (xy 80.01 77.47)
+			(xy 72.39 77.47) (xy 83.82 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1721,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 121.92) (xy 222.25 121.92)
+			(xy 193.04 121.92) (xy 226.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1731,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 64.77) (xy 135.89 64.77)
+			(xy 147.32 64.77) (xy 139.7 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1741,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 105.41) (xy 179.07 107.95)
+			(xy 182.88 105.41) (xy 182.88 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1751,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 59.69) (xy 138.43 53.34)
+			(xy 142.24 59.69) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 77.47) (xy 257.81 83.82)
+			(xy 261.62 77.47) (xy 261.62 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +1797,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 80.01 116.84)
+			(xy 72.39 116.84) (xy 83.82 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 77.47) (xy 232.41 83.82)
+			(xy 236.22 77.47) (xy 236.22 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1791,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 104.14) (xy 55.88 104.14)
+			(xy 55.88 104.14) (xy 59.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1801,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 107.95) (xy 179.07 110.49)
+			(xy 182.88 107.95) (xy 182.88 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1811,7 +1837,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 104.14) (xy 80.01 104.14)
+			(xy 72.39 104.14) (xy 83.82 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1821,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 143.51 85.09)
+			(xy 102.87 85.09) (xy 147.32 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 67.31) (xy 181.61 67.31)
+			(xy 182.88 67.31) (xy 185.42 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1841,7 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 87.63) (xy 68.58 90.17)
+			(xy 72.39 87.63) (xy 72.39 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1851,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 59.69) (xy 193.04 59.69)
+			(xy 182.88 59.69) (xy 196.85 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 62.23) (xy 214.63 62.23)
+			(xy 182.88 62.23) (xy 218.44 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1871,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 52.07) (xy 143.51 52.07)
+			(xy 118.11 52.07) (xy 147.32 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1881,7 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 114.3) (xy 80.01 116.84)
+			(xy 83.82 114.3) (xy 83.82 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1891,7 +1917,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 121.92) (xy 123.19 121.92)
+			(xy 111.76 121.92) (xy 127 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1901,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 77.47) (xy 68.58 77.47)
+			(xy 67.31 77.47) (xy 72.39 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1911,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 104.14) (xy 68.58 106.68)
+			(xy 72.39 104.14) (xy 72.39 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1921,7 +1947,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 102.87) (xy 179.07 105.41)
+			(xy 182.88 102.87) (xy 182.88 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 82.55) (xy 143.51 82.55)
+			(xy 100.33 82.55) (xy 147.32 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1941,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 143.51 80.01)
+			(xy 97.79 80.01) (xy 147.32 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1951,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 54.61) (xy 127 54.61)
+			(xy 140.97 54.61) (xy 130.81 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1961,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 59.69) (xy 114.3 121.92)
+			(xy 118.11 59.69) (xy 118.11 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1971,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 134.62 113.03)
+			(xy 138.43 106.68) (xy 138.43 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1981,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 90.17) (xy 80.01 90.17)
+			(xy 72.39 90.17) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1991,7 +2017,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 90.17) (xy 63.5 90.17)
+			(xy 72.39 90.17) (xy 67.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 49.53) (xy 123.19 49.53)
+			(xy 121.92 49.53) (xy 127 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2011,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 68.58) (xy 143.51 68.58)
+			(xy 111.76 68.58) (xy 147.32 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2021,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 59.69) (xy 138.43 59.69)
+			(xy 147.32 59.69) (xy 142.24 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2031,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 114.3) (xy 68.58 116.84)
+			(xy 72.39 114.3) (xy 72.39 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2041,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 83.82) (xy 257.81 121.92)
+			(xy 261.62 83.82) (xy 261.62 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 87.63) (xy 80.01 90.17)
+			(xy 83.82 87.63) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2061,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 62.23) (xy 137.16 54.61)
+			(xy 140.97 62.23) (xy 140.97 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2071,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 60.96) (xy 120.65 60.96)
+			(xy 110.49 60.96) (xy 124.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2081,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 53.34) (xy 123.19 55.88)
+			(xy 127 53.34) (xy 127 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2091,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 90.17) (xy 93.98 90.17)
+			(xy 83.82 90.17) (xy 97.79 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +2127,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 121.92) (xy 222.25 121.92)
+			(xy 243.84 121.92) (xy 226.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 67.31) (xy 214.63 73.66)
+			(xy 218.44 67.31) (xy 218.44 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2121,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 92.71) (xy 96.52 82.55)
+			(xy 100.33 92.71) (xy 100.33 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2131,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 46.99) (xy 127 46.99)
+			(xy 121.92 46.99) (xy 130.81 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2141,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 64.77) (xy 135.89 55.88)
+			(xy 139.7 64.77) (xy 139.7 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2151,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 57.15) (xy 139.7 50.8)
+			(xy 143.51 57.15) (xy 143.51 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2161,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 87.63) (xy 127 87.63)
+			(xy 147.32 87.63) (xy 130.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 67.31) (xy 222.25 73.66)
+			(xy 226.06 67.31) (xy 226.06 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2181,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 57.15) (xy 143.51 57.15)
+			(xy 143.51 57.15) (xy 147.32 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2191,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 64.77) (xy 198.12 67.31)
+			(xy 201.93 64.77) (xy 201.93 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2201,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 68.58) (xy 107.95 68.58)
+			(xy 102.87 68.58) (xy 111.76 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2211,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 90.17) (xy 52.07 90.17)
+			(xy 59.69 90.17) (xy 55.88 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2221,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 83.82) (xy 250.19 77.47)
+			(xy 254 83.82) (xy 254 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2231,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 127 106.68)
+			(xy 130.81 87.63) (xy 130.81 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2241,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 67.31) (xy 198.12 73.66)
+			(xy 201.93 67.31) (xy 201.93 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2251,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 63.5) (xy 130.81 63.5)
+			(xy 127 63.5) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2261,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 67.31) (xy 205.74 73.66)
+			(xy 209.55 67.31) (xy 209.55 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2271,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 76.2) (xy 99.06 85.09)
+			(xy 102.87 76.2) (xy 102.87 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2281,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 77.47) (xy 250.19 46.99)
+			(xy 254 77.47) (xy 254 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2291,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 77.47) (xy 68.58 80.01)
+			(xy 72.39 77.47) (xy 72.39 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2301,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 73.66) (xy 205.74 121.92)
+			(xy 209.55 73.66) (xy 209.55 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 62.23) (xy 137.16 62.23)
+			(xy 147.32 62.23) (xy 140.97 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2321,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 63.5) (xy 123.19 121.92)
+			(xy 127 63.5) (xy 127 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2331,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 52.07) (xy 143.51 54.61)
+			(xy 147.32 52.07) (xy 147.32 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2341,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 54.61) (xy 127 55.88)
+			(xy 130.81 54.61) (xy 130.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2351,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 99.06 116.84)
+			(xy 102.87 85.09) (xy 102.87 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2361,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 46.99) (xy 179.07 46.99)
+			(xy 254 46.99) (xy 182.88 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 90.17) (xy 93.98 80.01)
+			(xy 97.79 90.17) (xy 97.79 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2381,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 80.01) (xy 80.01 77.47)
+			(xy 83.82 80.01) (xy 83.82 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2391,7 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 83.82) (xy 240.03 121.92)
+			(xy 243.84 83.82) (xy 243.84 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2401,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 77.47) (xy 55.88 77.47)
+			(xy 55.88 77.47) (xy 59.69 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2411,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 60.96) (xy 120.65 67.31)
+			(xy 124.46 60.96) (xy 124.46 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2421,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 77.47) (xy 143.51 77.47)
+			(xy 83.82 77.47) (xy 147.32 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2431,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 106.68) (xy 127 113.03)
+			(xy 130.81 106.68) (xy 130.81 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2441,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 110.49) (xy 179.07 121.92)
+			(xy 182.88 110.49) (xy 182.88 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2451,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 67.31) (xy 189.23 73.66)
+			(xy 193.04 67.31) (xy 193.04 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2461,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 67.31) (xy 181.61 73.66)
+			(xy 185.42 67.31) (xy 185.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2471,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 121.92) (xy 179.07 121.92)
+			(xy 127 121.92) (xy 182.88 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2481,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 92.71) (xy 96.52 92.71)
+			(xy 83.82 92.71) (xy 100.33 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2491,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 77.47) (xy 232.41 49.53)
+			(xy 236.22 77.47) (xy 236.22 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2501,7 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 116.84) (xy 52.07 116.84)
+			(xy 59.69 116.84) (xy 55.88 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2511,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 62.23) (xy 214.63 67.31)
+			(xy 218.44 62.23) (xy 218.44 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2521,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 53.34) (xy 123.19 49.53)
+			(xy 127 53.34) (xy 127 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2531,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 106.68) (xy 80.01 104.14)
+			(xy 83.82 106.68) (xy 83.82 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2541,7 +2567,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 68.58) (xy 143.51 69.85)
+			(xy 147.32 68.58) (xy 147.32 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2551,7 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 121.92) (xy 189.23 121.92)
+			(xy 182.88 121.92) (xy 193.04 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2561,7 +2587,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 104.14) (xy 80.01 92.71)
+			(xy 83.82 104.14) (xy 83.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2571,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 67.31) (xy 143.51 67.31)
+			(xy 124.46 67.31) (xy 147.32 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2581,7 +2607,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 49.53) (xy 179.07 49.53)
+			(xy 236.22 49.53) (xy 182.88 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2591,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 55.88) (xy 130.81 55.88)
+			(xy 139.7 55.88) (xy 134.62 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2601,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 116.84) (xy 99.06 116.84)
+			(xy 83.82 116.84) (xy 102.87 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2611,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 54.61) (xy 127 46.99)
+			(xy 130.81 54.61) (xy 130.81 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2621,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 68.58 104.14)
+			(xy 67.31 104.14) (xy 72.39 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2631,7 +2657,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 53.34) (xy 123.19 53.34)
+			(xy 142.24 53.34) (xy 127 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2641,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 68.58) (xy 99.06 68.58)
+			(xy 101.6 68.58) (xy 102.87 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2651,7 +2677,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 73.66) (xy 222.25 121.92)
+			(xy 226.06 73.66) (xy 226.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2661,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 77.47) (xy 240.03 83.82)
+			(xy 243.84 77.47) (xy 243.84 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2671,7 +2697,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 64.77) (xy 198.12 64.77)
+			(xy 182.88 64.77) (xy 201.93 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2681,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 68.58) (xy 107.95 121.92)
+			(xy 111.76 68.58) (xy 111.76 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2691,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 121.92) (xy 240.03 121.92)
+			(xy 261.62 121.92) (xy 243.84 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2701,7 +2727,7 @@
 	)
 	(hierarchical_label "~{ADC_HPF_ENABLE}"
 		(shape input)
-		(at 106.68 60.96 180)
+		(at 110.49 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2712,7 +2738,7 @@
 	)
 	(hierarchical_label "SAI_SCLK"
 		(shape input)
-		(at 143.51 74.93 180)
+		(at 147.32 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2723,7 +2749,7 @@
 	)
 	(hierarchical_label "ADC_CLIP0"
 		(shape input)
-		(at 179.07 54.61 0)
+		(at 182.88 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2734,7 +2760,7 @@
 	)
 	(hierarchical_label "ADC_FS1"
 		(shape input)
-		(at 118.11 46.99 180)
+		(at 121.92 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2745,7 +2771,7 @@
 	)
 	(hierarchical_label "GAIN_OUT-_0"
 		(shape input)
-		(at 44.45 90.17 180)
+		(at 48.26 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2757,7 +2783,7 @@
 	)
 	(hierarchical_label "SAI_DATA"
 		(shape input)
-		(at 200.66 59.69 0)
+		(at 204.47 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2768,7 +2794,7 @@
 	)
 	(hierarchical_label "SAI_LRCK"
 		(shape input)
-		(at 143.51 97.79 180)
+		(at 147.32 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2779,7 +2805,7 @@
 	)
 	(hierarchical_label "GAIN_OUT+_1"
 		(shape input)
-		(at 44.45 104.14 180)
+		(at 48.26 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2791,7 +2817,7 @@
 	)
 	(hierarchical_label "GAIN_OUT+_0"
 		(shape input)
-		(at 44.45 77.47 180)
+		(at 48.26 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2803,7 +2829,7 @@
 	)
 	(hierarchical_label "ADC_CLIP1"
 		(shape input)
-		(at 179.07 57.15 0)
+		(at 182.88 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2814,7 +2840,7 @@
 	)
 	(hierarchical_label "SAI_BCK"
 		(shape input)
-		(at 143.51 92.71 180)
+		(at 147.32 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2825,7 +2851,7 @@
 	)
 	(hierarchical_label "GAIN_OUT-_1"
 		(shape input)
-		(at 44.45 116.84 180)
+		(at 48.26 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2837,7 +2863,7 @@
 	)
 	(hierarchical_label "ADC_FS0"
 		(shape input)
-		(at 118.11 49.53 180)
+		(at 121.92 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2848,7 +2874,7 @@
 	)
 	(hierarchical_label "~{ADC_RST}"
 		(shape input)
-		(at 97.79 68.58 180)
+		(at 101.6 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2859,7 +2885,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 201.93 67.31 90)
+		(at 205.74 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2868,8 +2894,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "043b44f4-2cd0-433c-b74a-76cc08065039")
-		(property "Reference" "C105"
-			(at 194.31 69.342 90)
+		(property "Reference" "C35"
+			(at 198.12 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2879,7 +2905,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 194.31 71.882 90)
+			(at 198.12 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2889,7 +2915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 66.3448 0)
+			(at 209.55 66.3448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2900,7 +2926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 67.31 0)
+			(at 205.74 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2911,7 +2937,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 201.93 67.31 0)
+			(at 205.74 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2930,7 +2956,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C105")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2938,7 +2964,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 218.44 73.66 90)
+		(at 222.25 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2947,8 +2973,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05d78d12-5377-4a1c-8c8e-faa943ad9151")
-		(property "Reference" "C108"
-			(at 210.82 75.692 90)
+		(property "Reference" "C38"
+			(at 214.63 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2958,7 +2984,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 210.82 78.232 90)
+			(at 214.63 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2968,7 +2994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 72.6948 0)
+			(at 226.06 72.6948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,7 +3005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 73.66 0)
+			(at 222.25 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2990,7 +3016,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 218.44 73.66 0)
+			(at 222.25 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3009,7 +3035,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C108")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -3017,7 +3043,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 104.14 90)
+		(at 63.5 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3027,8 +3053,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14fe77a6-4ed7-4e10-bb56-38a572a893d3")
-		(property "Reference" "R107"
-			(at 59.69 97.79 90)
+		(property "Reference" "R36"
+			(at 63.5 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3038,7 +3064,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 59.69 100.33 90)
+			(at 63.5 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3048,7 +3074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 105.918 90)
+			(at 63.5 105.918 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3059,7 +3085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 104.14 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3070,7 +3096,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 104.14 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3089,7 +3115,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R107")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3097,7 +3123,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 218.44 67.31 90)
+		(at 222.25 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3106,8 +3132,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17541d46-9a99-4288-9e06-82212c1a015f")
-		(property "Reference" "C107"
-			(at 210.82 69.342 90)
+		(property "Reference" "C37"
+			(at 214.63 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3117,7 +3143,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 210.82 71.882 90)
+			(at 214.63 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3127,7 +3153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 66.3448 0)
+			(at 226.06 66.3448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,7 +3164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 67.31 0)
+			(at 222.25 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3149,7 +3175,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 218.44 67.31 0)
+			(at 222.25 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3168,7 +3194,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C107")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3176,7 +3202,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 116.84 90)
+		(at 63.5 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3186,8 +3212,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17ab66e3-e0bf-4250-a512-a2e8f1106117")
-		(property "Reference" "R108"
-			(at 59.69 110.49 90)
+		(property "Reference" "R37"
+			(at 63.5 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3197,7 +3223,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 59.69 113.03 90)
+			(at 63.5 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3207,7 +3233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 118.618 90)
+			(at 63.5 118.618 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3218,7 +3244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 116.84 0)
+			(at 63.5 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3229,7 +3255,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 116.84 0)
+			(at 63.5 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3248,7 +3274,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R108")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -3256,7 +3282,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 46.99 0)
+		(at 143.51 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3265,8 +3291,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1dadc543-5f8c-4ffc-a251-a5e850bbbb23")
-		(property "Reference" "R114"
-			(at 138.176 45.72 0)
+		(property "Reference" "R46"
+			(at 141.986 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3277,7 +3303,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 136.652 48.006 0)
+			(at 140.462 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3288,7 +3314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.922 46.99 90)
+			(at 141.732 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +3325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 46.99 0)
+			(at 143.51 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,7 +3336,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 46.99 0)
+			(at 143.51 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3329,7 +3355,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R114")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -3337,7 +3363,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 83.82 180)
+		(at 83.82 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3347,8 +3373,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "245a7a4e-6d43-4510-98f8-609f223dd41b")
-		(property "Reference" "C117"
-			(at 83.82 82.5499 0)
+		(property "Reference" "C29"
+			(at 87.63 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3359,7 +3385,7 @@
 			)
 		)
 		(property "Value" "2.7n"
-			(at 83.82 85.0899 0)
+			(at 87.63 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3370,7 +3396,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 79.0448 80.01 0)
+			(at 82.8548 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 83.82 0)
+			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3392,7 +3418,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 83.82 0)
+			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3411,7 +3437,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C117")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -3419,7 +3445,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 110.49 180)
+		(at 83.82 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3429,8 +3455,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f2852e5-9801-4542-b725-7e0907a8f784")
-		(property "Reference" "C120"
-			(at 83.82 109.2199 0)
+		(property "Reference" "C30"
+			(at 87.63 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3441,7 +3467,7 @@
 			)
 		)
 		(property "Value" "2.7n"
-			(at 83.82 111.7599 0)
+			(at 87.63 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3452,7 +3478,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 79.0448 106.68 0)
+			(at 82.8548 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3463,7 +3489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 110.49 0)
+			(at 83.82 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3474,7 +3500,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 110.49 0)
+			(at 83.82 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3493,7 +3519,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C120")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -3501,7 +3527,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 104.14 90)
+		(at 52.07 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3511,8 +3537,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33d852aa-7607-43f6-8635-cb2af91db28b")
-		(property "Reference" "C118"
-			(at 48.26 96.52 90)
+		(property "Reference" "C27"
+			(at 52.07 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3522,7 +3548,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 48.26 99.06 90)
+			(at 52.07 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3532,7 +3558,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 52.07 103.1748 0)
+			(at 55.88 103.1748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +3569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 104.14 0)
+			(at 52.07 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3554,7 +3580,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 104.14 0)
+			(at 52.07 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3573,7 +3599,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C118")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3581,7 +3607,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 130.81 113.03 90)
+		(at 134.62 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3590,8 +3616,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3aa98a15-b6d6-4734-9846-3e24854b1501")
-		(property "Reference" "C104"
-			(at 138.684 110.49 90)
+		(property "Reference" "C32"
+			(at 142.494 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3601,7 +3627,7 @@
 			)
 		)
 		(property "Value" "33u"
-			(at 138.684 113.03 90)
+			(at 142.494 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3611,7 +3637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 112.0648 0)
+			(at 138.43 112.0648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3622,7 +3648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 113.03 0)
+			(at 134.62 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3633,7 +3659,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 130.81 113.03 0)
+			(at 134.62 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3652,7 +3678,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C104")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3660,7 +3686,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 196.85 59.69 90)
+		(at 200.66 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3669,8 +3695,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "405ec3e2-1b56-44ea-bbac-fc6ae6a59e0b")
-		(property "Reference" "R77"
-			(at 196.85 55.372 90)
+		(property "Reference" "R48"
+			(at 200.66 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3680,7 +3706,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 196.85 57.404 90)
+			(at 200.66 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3690,7 +3716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 61.468 90)
+			(at 200.66 61.468 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3701,7 +3727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 59.69 0)
+			(at 200.66 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,7 +3738,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 196.85 59.69 0)
+			(at 200.66 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,7 +3757,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R77")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -3739,7 +3765,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 106.68 90)
+		(at 134.62 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3748,8 +3774,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40bba664-57e4-4519-95a2-e33322ebb1c3")
-		(property "Reference" "C102"
-			(at 138.43 105.156 90)
+		(property "Reference" "C31"
+			(at 142.24 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3759,7 +3785,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 138.43 107.696 90)
+			(at 142.24 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3769,7 +3795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 105.7148 0)
+			(at 138.43 105.7148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,7 +3806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 106.68 0)
+			(at 134.62 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3791,7 +3817,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 106.68 0)
+			(at 134.62 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3810,7 +3836,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C102")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -3818,7 +3844,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 240.03 77.47 0)
+		(at 243.84 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3827,8 +3853,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "463c2498-0f7d-4911-9c7f-11fcc9e710ec")
-		(property "Reference" "#PWR0106"
-			(at 240.03 81.28 0)
+		(property "Reference" "#PWR050"
+			(at 243.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3839,7 +3865,7 @@
 			)
 		)
 		(property "Value" "+3.3VD"
-			(at 236.22 73.152 0)
+			(at 240.03 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3850,7 +3876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3861,7 +3887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,7 +3898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 240.03 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3888,7 +3914,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "#PWR0106")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3896,7 +3922,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 72.39 180)
+		(at 102.87 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3905,8 +3931,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48f88f38-8a76-40f0-af8f-6a0f9ceec56b")
-		(property "Reference" "R111"
-			(at 91.948 71.374 0)
+		(property "Reference" "R40"
+			(at 95.758 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3917,7 +3943,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 91.948 73.914 0)
+			(at 95.758 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3928,7 +3954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.838 72.39 90)
+			(at 104.648 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3939,7 +3965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 72.39 0)
+			(at 102.87 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3950,7 +3976,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 72.39 0)
+			(at 102.87 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3969,7 +3995,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R111")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3977,7 +4003,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 185.42 73.66 90)
+		(at 189.23 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3986,8 +4012,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49f7700a-3bd2-4652-b724-c80ae86602b8")
-		(property "Reference" "C101"
-			(at 178.054 74.676 90)
+		(property "Reference" "C34"
+			(at 181.864 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3997,7 +4023,7 @@
 			)
 		)
 		(property "Value" "33u"
-			(at 178.054 77.216 90)
+			(at 181.864 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4007,7 +4033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 72.6948 0)
+			(at 193.04 72.6948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4018,7 +4044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 73.66 0)
+			(at 189.23 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4029,7 +4055,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 185.42 73.66 0)
+			(at 189.23 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4074,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C101")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -4056,7 +4082,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 90.17 90)
+		(at 63.5 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4066,8 +4092,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b2bcb29-273b-4a0a-a74e-fa52a9506612")
-		(property "Reference" "R106"
-			(at 59.69 83.82 90)
+		(property "Reference" "R35"
+			(at 63.5 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4077,7 +4103,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 59.69 86.36 90)
+			(at 63.5 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4087,7 +4113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 91.948 90)
+			(at 63.5 91.948 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4098,7 +4124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 90.17 0)
+			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,7 +4135,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 90.17 0)
+			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4128,7 +4154,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R106")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -4136,7 +4162,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 135.89 72.39 90)
+		(at 139.7 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4145,8 +4171,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62dab35b-677c-43d4-aef9-5e0f14afd4c3")
-		(property "Reference" "#PWR0101"
-			(at 139.7 72.39 0)
+		(property "Reference" "#PWR048"
+			(at 143.51 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4157,7 +4183,7 @@
 			)
 		)
 		(property "Value" "+3.3VD"
-			(at 133.096 72.39 90)
+			(at 136.906 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4168,7 +4194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 72.39 0)
+			(at 139.7 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4179,7 +4205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 72.39 0)
+			(at 139.7 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4190,7 +4216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 135.89 72.39 0)
+			(at 139.7 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4206,7 +4232,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "#PWR0101")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4214,7 +4240,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 139.7 43.18 0)
+		(at 143.51 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4223,8 +4249,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d9884a6-a46f-4375-b1c6-2cac67e70ffe")
-		(property "Reference" "#PWR0105"
-			(at 139.7 46.99 0)
+		(property "Reference" "#PWR049"
+			(at 143.51 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,7 +4261,7 @@
 			)
 		)
 		(property "Value" "+3.3VD"
-			(at 136.144 39.37 0)
+			(at 139.954 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4246,7 +4272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 43.18 0)
+			(at 143.51 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4257,7 +4283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 43.18 0)
+			(at 143.51 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4268,7 +4294,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 43.18 0)
+			(at 143.51 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4284,7 +4310,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "#PWR0105")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4292,7 +4318,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.95 64.77 180)
+		(at 111.76 64.77 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4301,8 +4327,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "725fdf03-8c38-44c9-ae40-f10987a244d7")
-		(property "Reference" "R112"
-			(at 100.838 63.754 0)
+		(property "Reference" "R41"
+			(at 104.648 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4313,7 +4339,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 100.838 66.294 0)
+			(at 104.648 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4324,7 +4350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.728 64.77 90)
+			(at 113.538 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4335,7 +4361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 64.77 0)
+			(at 111.76 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4346,7 +4372,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 107.95 64.77 0)
+			(at 111.76 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4391,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R112")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -4373,7 +4399,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 110.49 0)
+		(at 72.39 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4383,8 +4409,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "753f7d67-f9a0-4f5e-a96d-4044972e2572")
-		(property "Reference" "R109"
-			(at 71.12 109.2199 0)
+		(property "Reference" "R39"
+			(at 74.93 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4395,7 +4421,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 71.12 111.7599 0)
+			(at 74.93 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4406,7 +4432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.802 110.49 90)
+			(at 70.612 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,7 +4443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 110.49 0)
+			(at 72.39 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4428,7 +4454,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 110.49 0)
+			(at 72.39 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4447,7 +4473,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R109")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4481,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 185.42 67.31 90)
+		(at 189.23 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4464,8 +4490,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85026ee4-795a-432d-8fd7-282e8042c967")
-		(property "Reference" "C100"
-			(at 177.8 69.342 90)
+		(property "Reference" "C33"
+			(at 181.61 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4475,7 +4501,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 177.8 71.882 90)
+			(at 181.61 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4485,7 +4511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 66.3448 0)
+			(at 193.04 66.3448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4496,7 +4522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 67.31 0)
+			(at 189.23 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4507,7 +4533,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 185.42 67.31 0)
+			(at 189.23 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4526,7 +4552,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C100")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -4534,7 +4560,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 254 83.82 90)
+		(at 257.81 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4543,8 +4569,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9109716c-127a-4583-bb19-1cd3f04b6d96")
-		(property "Reference" "C112"
-			(at 246.634 84.836 90)
+		(property "Reference" "C42"
+			(at 250.444 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4554,7 +4580,7 @@
 			)
 		)
 		(property "Value" "33u"
-			(at 246.634 87.376 90)
+			(at 250.444 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4564,7 +4590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 82.8548 0)
+			(at 261.62 82.8548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4575,7 +4601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 83.82 0)
+			(at 257.81 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4586,7 +4612,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 254 83.82 0)
+			(at 257.81 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4605,7 +4631,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C112")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -4613,7 +4639,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 257.81 77.47 0)
+		(at 261.62 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4622,8 +4648,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "976cbea6-0419-4112-997f-2470ce4731bb")
-		(property "Reference" "#PWR0107"
-			(at 257.81 81.28 0)
+		(property "Reference" "#PWR051"
+			(at 261.62 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +4660,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 257.556 73.152 0)
+			(at 261.366 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4644,7 +4670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 77.47 0)
+			(at 261.62 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4655,7 +4681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 77.47 0)
+			(at 261.62 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4692,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 257.81 77.47 0)
+			(at 261.62 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4682,7 +4708,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "#PWR0107")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4690,7 +4716,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 236.22 83.82 90)
+		(at 240.03 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4699,8 +4725,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "987efcb7-40c2-4a3c-bbf5-7608bff9c8f0")
-		(property "Reference" "C110"
-			(at 228.854 84.836 90)
+		(property "Reference" "C40"
+			(at 232.664 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4710,7 +4736,7 @@
 			)
 		)
 		(property "Value" "33u"
-			(at 228.854 87.376 90)
+			(at 232.664 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4720,7 +4746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 82.8548 0)
+			(at 243.84 82.8548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 83.82 0)
+			(at 240.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +4768,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 236.22 83.82 0)
+			(at 240.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4761,7 +4787,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C110")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -4769,7 +4795,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 83.82 0)
+		(at 72.39 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4779,8 +4805,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9984a589-e789-46dc-a264-3da1b5ce02fa")
-		(property "Reference" "R104"
-			(at 71.12 82.5499 0)
+		(property "Reference" "R38"
+			(at 74.93 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4791,7 +4817,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 71.12 85.0899 0)
+			(at 74.93 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4802,7 +4828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.802 83.82 90)
+			(at 70.612 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4813,7 +4839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 83.82 0)
+			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4824,7 +4850,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 83.82 0)
+			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4843,7 +4869,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R104")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -4851,7 +4877,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 254 77.47 90)
+		(at 257.81 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4860,8 +4886,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f3b7a51-b1c7-4b6c-a1f9-0c8bb79b41ed")
-		(property "Reference" "C111"
-			(at 246.38 79.502 90)
+		(property "Reference" "C41"
+			(at 250.19 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4871,7 +4897,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 246.38 82.042 90)
+			(at 250.19 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4881,7 +4907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 76.5048 0)
+			(at 261.62 76.5048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4892,7 +4918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 77.47 0)
+			(at 257.81 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +4929,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 254 77.47 0)
+			(at 257.81 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4922,7 +4948,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C111")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -4930,7 +4956,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 201.93 73.66 90)
+		(at 205.74 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4939,8 +4965,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0d646c4-9042-4aba-afba-2b1e3b2a4bbe")
-		(property "Reference" "C106"
-			(at 194.31 75.692 90)
+		(property "Reference" "C36"
+			(at 198.12 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4950,7 +4976,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 194.31 78.232 90)
+			(at 198.12 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4960,7 +4986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 72.6948 0)
+			(at 209.55 72.6948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4971,7 +4997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 73.66 0)
+			(at 205.74 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4982,7 +5008,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 201.93 73.66 0)
+			(at 205.74 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +5027,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C106")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -5009,7 +5035,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 116.84 90)
+		(at 52.07 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5019,8 +5045,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2eabe73-460a-4499-9117-f004ae2d3e71")
-		(property "Reference" "C119"
-			(at 48.26 109.22 90)
+		(property "Reference" "C28"
+			(at 52.07 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5030,7 +5056,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 48.26 111.76 90)
+			(at 52.07 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5040,7 +5066,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 52.07 115.8748 0)
+			(at 55.88 115.8748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,7 +5077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 116.84 0)
+			(at 52.07 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5062,7 +5088,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 116.84 0)
+			(at 52.07 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5081,7 +5107,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C119")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5089,7 +5115,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 59.69 0)
+		(at 127 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5098,8 +5124,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9f978f7-7c46-42f9-bcaf-c868530eac69")
-		(property "Reference" "R115"
-			(at 116.332 59.69 0)
+		(property "Reference" "R43"
+			(at 120.142 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5110,7 +5136,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 122.936 61.468 90)
+			(at 126.746 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5121,7 +5147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.412 59.69 90)
+			(at 125.222 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5132,7 +5158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 59.69 0)
+			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5143,7 +5169,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 59.69 0)
+			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5162,7 +5188,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R115")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -5170,7 +5196,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 72.39 90)
+		(at 143.51 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5179,8 +5205,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc2cb247-4884-4659-99a6-49af57a1f72e")
-		(property "Reference" "R110"
-			(at 127.254 75.184 90)
+		(property "Reference" "R47"
+			(at 131.064 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5191,7 +5217,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 137.922 72.39 90)
+			(at 141.732 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5202,7 +5228,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 139.7 74.168 90)
+			(at 143.51 74.168 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5213,7 +5239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 72.39 0)
+			(at 143.51 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5224,7 +5250,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 72.39 0)
+			(at 143.51 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5243,7 +5269,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R110")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -5251,7 +5277,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 90.17 90)
+		(at 52.07 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5261,8 +5287,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7572361-2ec3-465d-93df-bab6b75b4d5b")
-		(property "Reference" "C116"
-			(at 48.26 82.55 90)
+		(property "Reference" "C26"
+			(at 52.07 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5272,7 +5298,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 48.26 85.09 90)
+			(at 52.07 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5282,7 +5308,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 52.07 89.2048 0)
+			(at 55.88 89.2048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5293,7 +5319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 90.17 0)
+			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5304,7 +5330,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 90.17 0)
+			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5323,7 +5349,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C116")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5331,7 +5357,7 @@
 	)
 	(symbol
 		(lib_id "PCM4202DB:PCM4202DB")
-		(at 161.29 80.01 0)
+		(at 165.1 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5341,8 +5367,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f581eb-0636-4690-bb3e-586e3223bf7f")
-		(property "Reference" "U15"
-			(at 161.29 39.37 0)
+		(property "Reference" "U4"
+			(at 165.1 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5352,7 +5378,7 @@
 			)
 		)
 		(property "Value" "PCM4202DB"
-			(at 161.29 41.91 0)
+			(at 165.1 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5362,7 +5388,7 @@
 			)
 		)
 		(property "Footprint" "PCM4202DB:SOP65P780X200-28N"
-			(at 161.29 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5374,7 +5400,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/pcm4202"
-			(at 161.29 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5412,7 @@
 			)
 		)
 		(property "Description" "118dB SNR Stereo Audio ADC"
-			(at 161.29 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5398,7 +5424,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "http://www.ti.com/lit/gpn/pcm4202"
-			(at 161.29 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5410,7 +5436,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 161.29 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5422,7 +5448,7 @@
 			)
 		)
 		(property "MPN" "PCM4202DB"
-			(at 161.29 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5434,7 +5460,7 @@
 			)
 		)
 		(property "Package" "SSOP-28 Texas Instruments"
-			(at 161.29 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5446,7 +5472,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/PCM4202DB/Texas+Instruments/view-part/"
-			(at 161.29 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5544,7 +5570,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "U15")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5578,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 236.22 77.47 90)
+		(at 240.03 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5561,8 +5587,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e207e2cd-91ad-492d-9c32-1297f0449789")
-		(property "Reference" "C109"
-			(at 228.6 79.502 90)
+		(property "Reference" "C39"
+			(at 232.41 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5572,7 +5598,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 228.6 82.042 90)
+			(at 232.41 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5582,7 +5608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 76.5048 0)
+			(at 243.84 76.5048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5593,7 +5619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 77.47 0)
+			(at 240.03 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,7 +5630,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 236.22 77.47 0)
+			(at 240.03 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5623,88 +5649,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 127 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e7955963-9125-4053-9320-0dfc62e86d41")
-		(property "Reference" "R116"
-			(at 124.46 65.532 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 127 61.722 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.222 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 127 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b29c0bc5-638c-46e8-8ff5-d12e07972183")
-		)
-		(pin "1"
-			(uuid "8be052dd-4cf2-49a1-958c-bde1de9262c3")
-		)
-		(instances
-			(project "vireo-lite"
-				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R116")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -5720,9 +5665,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ebe106a8-275d-476f-894e-ef3afe7367de")
-		(property "Reference" "R117"
-			(at 130.048 65.532 0)
+		(uuid "e7955963-9125-4053-9320-0dfc62e86d41")
+		(property "Reference" "R44"
+			(at 128.27 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5733,7 +5678,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 130.81 61.468 90)
+			(at 130.81 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5777,15 +5722,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b531c9c1-c33c-4168-96d2-7b059f40921b")
+			(uuid "b29c0bc5-638c-46e8-8ff5-d12e07972183")
 		)
 		(pin "1"
-			(uuid "edb6999d-d465-4583-83df-b0e274caeee8")
+			(uuid "8be052dd-4cf2-49a1-958c-bde1de9262c3")
 		)
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R117")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5793,7 +5738,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 77.47 90)
+		(at 134.62 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5801,30 +5746,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed355a0a-5b7b-4eff-9510-cfaf6b41f913")
-		(property "Reference" "R105"
-			(at 59.69 71.12 90)
+		(uuid "ebe106a8-275d-476f-894e-ef3afe7367de")
+		(property "Reference" "R45"
+			(at 133.858 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 59.69 73.66 90)
+		(property "Value" "10k"
+			(at 134.62 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 79.248 90)
+			(at 132.842 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5835,7 +5781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 77.47 0)
+			(at 134.62 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5846,7 +5792,87 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 77.47 0)
+			(at 134.62 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b531c9c1-c33c-4168-96d2-7b059f40921b")
+		)
+		(pin "1"
+			(uuid "edb6999d-d465-4583-83df-b0e274caeee8")
+		)
+		(instances
+			(project "vireo-lite"
+				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed355a0a-5b7b-4eff-9510-cfaf6b41f913")
+		(property "Reference" "R34"
+			(at 63.5 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 63.5 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 79.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5865,7 +5891,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R105")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -5873,7 +5899,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 55.88 0)
+		(at 118.11 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5882,8 +5908,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc2bd4b7-389f-48d2-90cc-2e481e50fbd2")
-		(property "Reference" "R113"
-			(at 107.696 54.61 0)
+		(property "Reference" "R42"
+			(at 111.506 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5894,7 +5920,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 107.95 56.388 0)
+			(at 111.76 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5905,7 +5931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.522 55.88 90)
+			(at 116.332 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5916,7 +5942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 55.88 0)
+			(at 118.11 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5927,7 +5953,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 55.88 0)
+			(at 118.11 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5946,7 +5972,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "R113")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -5954,7 +5980,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 77.47 90)
+		(at 52.07 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5964,8 +5990,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc8f09a-f57f-4657-ba95-c73fe7b4b608")
-		(property "Reference" "C103"
-			(at 48.26 69.85 90)
+		(property "Reference" "C25"
+			(at 52.07 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5975,7 +6001,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 48.26 72.39 90)
+			(at 52.07 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5985,7 +6011,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 52.07 76.5048 0)
+			(at 55.88 76.5048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5996,7 +6022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 77.47 0)
+			(at 52.07 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6007,7 +6033,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 77.47 0)
+			(at 52.07 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6026,7 +6052,7 @@
 		(instances
 			(project "vireo-lite"
 				(path "/61005c45-a979-4676-8d6b-817cd7f4616a/a71ea095-8d15-401d-9170-37db03c0c1bb"
-					(reference "C103")
+					(reference "C25")
 					(unit 1)
 				)
 			)

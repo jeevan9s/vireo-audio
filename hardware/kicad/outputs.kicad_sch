@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9a23e61f-5c76-47f1-aedf-db3ec5e17dcd")
+	(paper "A4")
+	(title_block
+		(title "DAC Circuitry")
+		(company "Jeevan Sanchez")
+	)
+	(lib_symbols)
+)

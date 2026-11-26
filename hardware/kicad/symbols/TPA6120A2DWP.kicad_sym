@@ -1,0 +1,779 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TPA6120A2DWP" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -12.7 15.24 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "TPA6120A2DWP" (id 1) (at -12.7 -17.78 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "TPA6120A2DWP:SOIC127P1040X265-21N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/gpn/tpa6120a2" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "A1_MIN" "0.0" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "A_MAX" "2.65" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "A_MIN" "2.65" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "A_NOM" "2.65" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "B_MAX" "0.51" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "B_MIN" "0.35" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "B_NOM" "0.43" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "D2_MAX" "2.79" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET_URL" "http://www.ti.com/lit/gpn/tpa6120a2" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "Stereo, 9.0- to 33.0-V, analog input headphone amplifier with 128 dB dynamic range" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "D_MAX" "12.95" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "D_MIN" "12.7" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "D_NOM" "12.825" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E1_MAX" "7.59" (id 17) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E1_MIN" "7.45" (id 18) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E1_NOM" "7.52" (id 19) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E2_MAX" "3.81" (id 20) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "ENOM" "1.27" (id 21) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E_MAX" "10.65" (id 22) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E_MIN" "10.16" (id 23) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E_NOM" "10.405" (id 24) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "L_MAX" "1.27" (id 25) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "L_MIN" "0.4" (id 26) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "L_NOM" "0.835" (id 27) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Texas Instruments" (id 28) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "TPA6120A2DWP" (id 29) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PIN_COUNT" "20.0" (id 30) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "HSOIC-20 Texas Instruments" (id 31) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SNAPEDA_PACKAGE_ID" "47803" (id 32) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SOURCE_URL" "https://www.snapeda.com/parts/TPA6120A2DWP/Texas+Instruments/view-part/" (id 33) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC 7351B" (id 34) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TPA6120A2DWP_0_0"
+      (rectangle (start -12.7 -15.24) (end 12.7 15.24)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -17.78 7.62 0) (length 5.08)
+        (name "LIN+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 5.08 0) (length 5.08)
+        (name "LIN-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 0.0 0) (length 5.08)
+        (name "RIN+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 -2.54 0) (length 5.08)
+        (name "RIN-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 2.54 180.0) (length 5.08)
+        (name "LOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 0.0 180.0) (length 5.08)
+        (name "ROUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 10.16 180.0) (length 5.08)
+        (name "RVCC+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 12.7 180.0) (length 5.08)
+        (name "LVCC+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -5.08 180.0) (length 5.08)
+        (name "LVCC-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -7.62 180.0) (length 5.08)
+        (name "RVCC-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08)
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S38"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S39"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S40"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S41"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S42"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S43"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S44"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S45"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S46"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S47"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S48"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S49"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S50"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S51"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S52"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S53"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S54"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S55"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S56"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S57"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S58"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S59"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S60"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S61"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S62"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S63"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S64"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S65"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S66"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S67"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S68"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S69"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S70"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S71"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08) hide
+        (name "GND_EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S72"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
