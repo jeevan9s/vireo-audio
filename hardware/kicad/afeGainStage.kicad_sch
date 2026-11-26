@@ -2516,6 +2516,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 125.73) (xy 111.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb6dbb9-d68b-440c-8378-5aade3e326b2")
+	)
+	(wire
+		(pts
 			(xy 227.33 113.03) (xy 236.22 113.03)
 		)
 		(stroke
@@ -3123,6 +3133,16 @@
 			(type default)
 		)
 		(uuid "ec067ee0-9087-4d3c-8d68-3393aedd393d")
+	)
+	(wire
+		(pts
+			(xy 76.2 125.73) (xy 76.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb31f75-d83e-4df2-b776-33c4ff294fad")
 	)
 	(wire
 		(pts
@@ -3891,7 +3911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 60.452 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,7 +4073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 184.912 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4114,7 +4134,7 @@
 	)
 	(symbol
 		(lib_id "power:-5VA")
-		(at 111.76 120.65 180)
+		(at 111.76 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4122,10 +4142,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1271c957-3824-4b7c-822b-0668981679fb")
 		(property "Reference" "#PWR097"
-			(at 111.76 116.84 0)
+			(at 115.57 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4136,7 +4155,7 @@
 			)
 		)
 		(property "Value" "-5VA"
-			(at 111.76 125.73 0)
+			(at 109.728 127.508 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4146,7 +4165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 120.65 0)
+			(at 111.76 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4157,7 +4176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 120.65 0)
+			(at 111.76 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,7 +4187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5VA\""
-			(at 111.76 120.65 0)
+			(at 111.76 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4213,7 +4232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 234.95 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4614,7 +4633,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7u"
 			(at 65.024 123.444 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4694,7 +4713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "470p"
 			(at 156.718 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,7 +4872,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7u"
 			(at 248.412 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5332,7 +5351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 218.948 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5413,7 +5432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 94.488 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5653,7 +5672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 234.95 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5734,7 +5753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "470p"
 			(at 32.258 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5873,7 +5892,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 76.2 120.65 180)
+		(at 76.2 125.73 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5884,7 +5903,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6d000cb-7df2-410e-b576-51eea7ef8ac7")
 		(property "Reference" "#PWR0104"
-			(at 76.2 116.84 0)
+			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,17 +5914,18 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 76.2 125.73 0)
+			(at 80.01 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 120.65 0)
+			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5916,7 +5936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 120.65 0)
+			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5927,7 +5947,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 76.2 120.65 0)
+			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5970,7 +5990,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7u"
 			(at 189.484 123.444 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6051,7 +6071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 110.49 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6446,7 +6466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "470p"
 			(at 156.464 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,7 +6548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 110.49 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6685,7 +6705,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7u"
 			(at 123.698 124.968 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6924,7 +6944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "470p"
 			(at 32.004 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)

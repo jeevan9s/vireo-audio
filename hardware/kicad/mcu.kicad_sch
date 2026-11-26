@@ -5835,6 +5835,17 @@
 			)
 		)
 	)
+	(hierarchical_label "SAI_LRCK"
+		(shape input)
+		(at 382.27 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00b9bf5e-cdd0-4bed-996e-e019d4bac059")
+	)
 	(hierarchical_label "CH0_DETECT_T"
 		(shape input)
 		(at 285.75 69.85 90)
@@ -5868,16 +5879,16 @@
 		)
 		(uuid "13e90ddd-a6ea-4a2e-9126-28407da794c1")
 	)
-	(hierarchical_label "SAI_SDOUT"
+	(hierarchical_label "SAI_BCK"
 		(shape input)
-		(at 356.87 80.01 0)
+		(at 382.27 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "34c52f1e-5f9f-44dc-9793-3ef8b1183a71")
+		(uuid "35c27d84-81a7-430e-9133-4bbffc6e6d83")
 	)
 	(hierarchical_label "~{ADC_RST}"
 		(shape input)
@@ -5889,17 +5900,6 @@
 			(justify right)
 		)
 		(uuid "3844b6e5-3277-43ac-a243-f704587b0a55")
-	)
-	(hierarchical_label "ADC_M0"
-		(shape input)
-		(at 312.42 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f963361-6c9b-42d4-bb0a-063f1aa1702c")
 	)
 	(hierarchical_label "USB_N"
 		(shape input)
@@ -5923,17 +5923,6 @@
 		)
 		(uuid "54622c81-b017-456a-a2b1-99757d548125")
 	)
-	(hierarchical_label "ADC_OVFL_DETECT"
-		(shape input)
-		(at 307.34 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d80045a-1bbe-44e4-afbd-c9ca0b0f7865")
-	)
 	(hierarchical_label "SWDCLK"
 		(shape input)
 		(at 241.3 123.19 0)
@@ -5956,27 +5945,16 @@
 		)
 		(uuid "6ccd5146-8f54-406f-a960-1c31a8bbec89")
 	)
-	(hierarchical_label "ADC_M1"
+	(hierarchical_label "ADC_CLIP0"
 		(shape input)
-		(at 312.42 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91dc0264-6ccd-40a0-ad54-78f0c67efc6e")
-	)
-	(hierarchical_label "SAI_MCLK"
-		(shape input)
-		(at 356.87 72.39 0)
+		(at 341.63 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "94c63ed6-452e-475c-ba8c-8815e6cadfe5")
+		(uuid "870a934f-f864-46ac-89a1-8a1c5e7414ea")
 	)
 	(hierarchical_label "SWDIO"
 		(shape input)
@@ -6044,6 +6022,17 @@
 		)
 		(uuid "b6768a72-519d-46fb-820e-44e53ab2f76b")
 	)
+	(hierarchical_label "ADC_FS0"
+		(shape input)
+		(at 386.08 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b762a505-5ae2-49f6-8b71-ba1b4909e8f2")
+	)
 	(hierarchical_label "PGA_SCLK"
 		(shape input)
 		(at 299.72 60.96 270)
@@ -6054,6 +6043,28 @@
 			(justify right)
 		)
 		(uuid "b7be06e7-56c2-4b8e-9363-500ef760eddc")
+	)
+	(hierarchical_label "ADC_FS1"
+		(shape input)
+		(at 386.08 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0d11429-0799-4c6f-9c35-55c81d4f57fc")
+	)
+	(hierarchical_label "SAI_SCLK"
+		(shape input)
+		(at 382.27 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c475e6cb-4e47-403f-8015-72a381a9147e")
 	)
 	(hierarchical_label "PGA_OVR_1"
 		(shape input)
@@ -6077,28 +6088,6 @@
 		)
 		(uuid "ca33ee82-9fe7-4266-87cb-bd66f31aa378")
 	)
-	(hierarchical_label "SAI_LRCK"
-		(shape input)
-		(at 356.87 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d05386a4-f9ce-4157-8a66-881fc4e03a6e")
-	)
-	(hierarchical_label "SAI_SCLK"
-		(shape input)
-		(at 356.87 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d80899d3-3394-4bb4-9873-d558061e75a3")
-	)
 	(hierarchical_label "PGA_CS_0"
 		(shape input)
 		(at 290.83 59.69 270)
@@ -6110,6 +6099,17 @@
 		)
 		(uuid "decb33af-ef10-460b-9b6d-f0db624e2a9d")
 	)
+	(hierarchical_label "SAI_DATA"
+		(shape input)
+		(at 363.22 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0e26745-4387-483d-b2f6-3cecac117fc0")
+	)
 	(hierarchical_label "PB9_GPIO"
 		(shape input)
 		(at 248.92 140.97 0)
@@ -6120,6 +6120,17 @@
 			(justify left)
 		)
 		(uuid "e1b9048d-08d5-4383-b085-15653e4fb389")
+	)
+	(hierarchical_label "ADC_CLIP1"
+		(shape input)
+		(at 341.63 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f006a7b3-8635-4ea1-bfc5-be9023ddd07b")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6222,7 +6233,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10p"
 			(at 167.894 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,7 +6562,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 153.67 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6962,7 +6973,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 160.528 88.646 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7041,7 +7052,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "2.2u"
 			(at 177.8 207.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7462,7 +7473,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10p"
 			(at 149.606 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7868,7 +7879,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 198.12 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7947,7 +7958,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 172.72 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8195,7 +8206,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "2.2u"
 			(at 172.212 207.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8448,7 +8459,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 91.186 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8698,7 +8709,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 222.25 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9279,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 191.77 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9450,7 +9461,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 166.37 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9529,7 +9540,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 185.42 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9767,7 +9778,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 155.194 88.646 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10097,7 +10108,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 222.25 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10176,7 +10187,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 179.07 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
